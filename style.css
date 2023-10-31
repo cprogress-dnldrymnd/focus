@@ -31,6 +31,6 @@ you don't need any @import rules
   .header-main-mobile {
     display: none !important; } }
 .elementor-button-white .elementor-button {
-  background-color: var(--white-color); }
+  background-color: var(--white-color) !important; }
 
 /*# sourceMappingURL=style.css.map */
