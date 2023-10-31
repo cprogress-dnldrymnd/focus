@@ -21,4 +21,8 @@ you don't need any @import rules
   right: 0;
   bottom: 0; }
 
+@media (min-width: 1025px) {
+  .header-main-mobile {
+    display: none !important; } }
+
 /*# sourceMappingURL=style.css.map */

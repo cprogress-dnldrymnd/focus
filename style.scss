@@ -26,3 +26,15 @@ you don't need any @import rules
         bottom: 0;
     }
 }
+
+.home {
+    .header-main {
+
+    }
+}
+
+@media(min-width: 1025px) {
+    .header-main-mobile {
+        display: none !important;
+    }
+}
