@@ -13,7 +13,9 @@ put your child theme styles here
 you don't need any @import rules
 
 */
-
+:root {
+    --white-color: #fff;
+}
 .background-style-1 {
     &:before {
         content: "";
@@ -31,12 +33,16 @@ you don't need any @import rules
 }
 .home {
     .header-main {
-
     }
 }
 
-@media(min-width: 1025px) {
+@media (min-width: 1025px) {
     .header-main-mobile {
         display: none !important;
+    }
+}
+.elementor-button-white {
+    .elementor-button {
+        background-color: var(--white-color);
     }
 }
