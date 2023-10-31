@@ -15,6 +15,7 @@ you don't need any @import rules
 */
 :root {
     --accent-color-1: #58AFA1;
+    --accent-color-5: #1D1D1C;
     --accent-color-9: #fff;
 }
 .background-style-1 {
@@ -44,10 +45,10 @@ you don't need any @import rules
 }
 .elementor-button-white {
     .elementor-button {
-        background-color: var(--accent-color-9) !important;
+        background-color: var(--accent-color-5) !important;
         &:hover {
-            background-color: #58AFA1 !important;
-            color: #58AFA1;
+            background-color:var(--accent-color-1) !important;
+            color: var(--accent-color-5) !important;
         }
     }
 }
