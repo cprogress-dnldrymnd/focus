@@ -13,7 +13,8 @@ you don't need any @import rules
 
 */
 :root {
-  --white-color: #fff; }
+  --accent-color-1: #58AFA1;
+  --accent-color-9: #fff; }
 
 .background-style-1:before {
   content: "";
@@ -31,6 +32,9 @@ you don't need any @import rules
   .header-main-mobile {
     display: none !important; } }
 .elementor-button-white .elementor-button {
-  background-color: var(--white-color) !important; }
+  background-color: var(--accent-color-9) !important; }
+  .elementor-button-white .elementor-button:hover {
+    background-color: #58AFA1 !important;
+    color: #58AFA1; }
 
 /*# sourceMappingURL=style.css.map */
