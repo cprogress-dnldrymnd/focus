@@ -13,33 +13,45 @@ you don't need any @import rules
 
 */
 :root {
-  --accent-color-1: #58AFA1;
+  --accent-color-1: #58afa1;
   --accent-color-5: #fff;
-  --accent-color-9: #1D1D1C; }
+  --accent-color-9: #1d1d1c; }
 
-.background-style-1 .elementor-container {
+.background-style .elementor-container {
   z-index: 1; }
-.background-style-1:before {
+.background-style:before {
   content: "";
-  background: transparent linear-gradient(251deg, #722282 0%, #5f277c 26%, #1e3765 77%, #66bbb0 100%) 0% 0% no-repeat;
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0; }
+.background-style:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0; }
+
+.background-style-1:before {
+  background: transparent linear-gradient(251deg, #722282 0%, #5f277c 26%, #1e3765 77%, #66bbb0 100%) 0% 0% no-repeat;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%); }
 .background-style-1:after {
   content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background: transparent linear-gradient(250deg, #722282AC 0%, #72228212 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(250deg, #722282ac 0%, #72228212 100%) 0% 0% no-repeat padding-box;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   transform: translateY(60px); }
+
+.background-style-2:before {
+  background: transparent linear-gradient(76deg, #512d6d 0%, #213765 100%) 0% 0% no-repeat padding-box; }
+
+.background-style-3:before {
+  background: transparent linear-gradient(76deg, #512d6d 0%, #213765 100%) 0% 0% no-repeat padding-box; }
+.background-style-3:after {
+  content: "";
+  background: transparent linear-gradient(262deg, #512D6D79 0%, #21376521 100%) 0% 0% no-repeat padding-box; }
 
 .header-main.header-main.header-main {
   margin-bottom: -200px; }
