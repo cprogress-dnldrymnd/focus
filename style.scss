@@ -30,6 +30,7 @@ you don't need any @import rules
         bottom: 0;
     }
     &:after {
+        content: "";
         position: absolute;
         left: 0;
         top: 0;

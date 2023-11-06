@@ -26,6 +26,7 @@ you don't need any @import rules
   right: 0;
   bottom: 0; }
 .background-style-1:after {
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
