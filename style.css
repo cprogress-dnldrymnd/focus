@@ -17,18 +17,22 @@ you don't need any @import rules
   --accent-color-5: #fff;
   --accent-color-9: #1d1d1c; }
 
-.background-style, .footer-wrapper {
+.background-style,
+.footer-wrapper {
   position: relative; }
-  .background-style .elementor-container, .footer-wrapper .elementor-container {
+  .background-style .elementor-container,
+  .footer-wrapper .elementor-container {
     z-index: 1; }
-  .background-style:before, .footer-wrapper:before {
+  .background-style:before,
+  .footer-wrapper:before {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0; }
-  .background-style:after, .footer-wrapper:after {
+  .background-style:after,
+  .footer-wrapper:after {
     position: absolute;
     left: 0;
     top: 0;
@@ -50,19 +54,24 @@ you don't need any @import rules
   background: transparent linear-gradient(76deg, #512d6d 0%, #213765 100%) 0% 0% no-repeat padding-box; }
 
 .footer-wrapper:before {
-  background: transparent linear-gradient(262deg, #512D6D79 0%, #21376521 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(262deg, #512d6d79 0%, #21376521 100%) 0% 0% no-repeat padding-box;
   -webkit-clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
   clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
   top: -120px; }
 .footer-wrapper:after {
   content: "";
-  background: transparent linear-gradient(73deg, #EFEBF2 0%, #EFEBF300 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(73deg, #efebf2 0%, #efebf300 100%) 0% 0% no-repeat padding-box;
   -webkit-clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
   clip-path: polygon(0 45%, 100% 0%, 100% 100%, 0 100%);
   top: -180px; }
 
 .header-main.header-main.header-main {
   margin-bottom: -200px; }
+
+.header-main.vamtam-sticky-header--fixed-hidden, .header-main.vamtam-sticky-header--fixed-shown {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--accent-color-1) !important; }
 
 @media (min-width: 1025px) {
   .header-main-mobile {
