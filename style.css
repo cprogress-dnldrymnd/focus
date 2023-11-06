@@ -17,16 +17,16 @@ you don't need any @import rules
   --accent-color-5: #fff;
   --accent-color-9: #1d1d1c; }
 
-.background-style .elementor-container {
+.background-style .elementor-container, .footer-wrapper .elementor-container {
   z-index: 1; }
-.background-style:before {
+.background-style:before, .footer-wrapper:before {
   content: "";
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0; }
-.background-style:after {
+.background-style:after, .footer-wrapper:after {
   position: absolute;
   left: 0;
   top: 0;
@@ -47,9 +47,9 @@ you don't need any @import rules
 .background-style-2:before {
   background: transparent linear-gradient(76deg, #512d6d 0%, #213765 100%) 0% 0% no-repeat padding-box; }
 
-.background-style-3:before {
+.footer-wrapper:before {
   background: transparent linear-gradient(76deg, #512d6d 0%, #213765 100%) 0% 0% no-repeat padding-box; }
-.background-style-3:after {
+.footer-wrapper:after {
   content: "";
   background: transparent linear-gradient(262deg, #512D6D79 0%, #21376521 100%) 0% 0% no-repeat padding-box; }
 

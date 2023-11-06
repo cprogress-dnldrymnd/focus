@@ -18,7 +18,7 @@ you don't need any @import rules
     --accent-color-5: #fff;
     --accent-color-9: #1d1d1c;
 }
-.background-style {
+.background-style, .footer-wrapper {
     .elementor-container {
         z-index: 1;
     }
@@ -62,7 +62,7 @@ you don't need any @import rules
 }
 
 
-.background-style-3 {
+.footer-wrapper {
     &:before {
         background: transparent linear-gradient(76deg, #512d6d 0%, #213765 100%) 0% 0% no-repeat padding-box;
     }
