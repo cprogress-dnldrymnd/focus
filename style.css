@@ -17,21 +17,23 @@ you don't need any @import rules
   --accent-color-5: #fff;
   --accent-color-9: #1d1d1c; }
 
-.background-style .elementor-container, .footer-wrapper .elementor-container {
-  z-index: 1; }
-.background-style:before, .footer-wrapper:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0; }
-.background-style:after, .footer-wrapper:after {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0; }
+.background-style, .footer-wrapper {
+  position: relative; }
+  .background-style .elementor-container, .footer-wrapper .elementor-container {
+    z-index: 1; }
+  .background-style:before, .footer-wrapper:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0; }
+  .background-style:after, .footer-wrapper:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0; }
 
 .background-style-1:before {
   background: transparent linear-gradient(251deg, #722282 0%, #5f277c 26%, #1e3765 77%, #66bbb0 100%) 0% 0% no-repeat;

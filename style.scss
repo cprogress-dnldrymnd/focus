@@ -19,6 +19,7 @@ you don't need any @import rules
     --accent-color-9: #1d1d1c;
 }
 .background-style, .footer-wrapper {
+    position: relative;
     .elementor-container {
         z-index: 1;
     }
