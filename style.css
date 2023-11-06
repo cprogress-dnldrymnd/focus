@@ -68,11 +68,11 @@ you don't need any @import rules
 .header-main.header-main.header-main {
   margin-bottom: -200px; }
 
-.header-main.vamtam-sticky-header--fixed-hidden, .header-main.vamtam-sticky-header--fixed-shown {
+.header-main.vamtam-sticky-header--fixed-hidden.vamtam-sticky-header--fixed-hidden, .header-main.vamtam-sticky-header--fixed-shown.vamtam-sticky-header--fixed-shown {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: var(--accent-color-1) !important; }
-  .header-main.vamtam-sticky-header--fixed-hidden .elementor-widget-theme-site-logo, .header-main.vamtam-sticky-header--fixed-shown .elementor-widget-theme-site-logo {
+  .header-main.vamtam-sticky-header--fixed-hidden.vamtam-sticky-header--fixed-hidden .elementor-widget-theme-site-logo, .header-main.vamtam-sticky-header--fixed-shown.vamtam-sticky-header--fixed-shown .elementor-widget-theme-site-logo {
     width: 90px; }
 
 @media (min-width: 1025px) {
