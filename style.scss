@@ -81,18 +81,20 @@ you don't need any @import rules
 .header-main.header-main.header-main {
     margin-bottom: -200px;
 }
-
-.header-main {
-    &.vamtam-sticky-header--fixed-hidden.vamtam-sticky-header--fixed-hidden,
-    &.vamtam-sticky-header--fixed-shown.vamtam-sticky-header--fixed-shown {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        background-color: var(--accent-color-1) !important;
-        .elementor-widget-theme-site-logo {
-            width: 90px;
+body:not(.elementor-editor-active) {
+    .header-main.header-main.header-main {
+        &.vamtam-sticky-header--fixed-hidden.vamtam-sticky-header--fixed-hidden,
+        &.vamtam-sticky-header--fixed-shown.vamtam-sticky-header--fixed-shown {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: var(--accent-color-1) !important;
+            .elementor-widget-theme-site-logo {
+                width: 90px;
+            }
         }
     }
 }
+
 
 @media (min-width: 1025px) {
     .header-main-mobile {
