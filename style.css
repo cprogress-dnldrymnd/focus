@@ -72,6 +72,8 @@ you don't need any @import rules
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: var(--accent-color-1) !important; }
+  .header-main.vamtam-sticky-header--fixed-hidden .elementor-widget-theme-site-logo, .header-main.vamtam-sticky-header--fixed-shown .elementor-widget-theme-site-logo {
+    width: 90px; }
 
 @media (min-width: 1025px) {
   .header-main-mobile {

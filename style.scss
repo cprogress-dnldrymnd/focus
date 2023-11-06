@@ -88,6 +88,9 @@ you don't need any @import rules
         padding-top: 10px;
         padding-bottom: 10px;
         background-color: var(--accent-color-1) !important;
+        .elementor-widget-theme-site-logo {
+            width: 90px;
+        }
     }
 }
 
