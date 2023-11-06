@@ -19,6 +19,9 @@ you don't need any @import rules
     --accent-color-9: #1D1D1C;
 }
 .background-style-1 {
+    .elementor-container {
+        z-index: 1;
+    }
     &:before {
         content: "";
         background: transparent linear-gradient(251deg, #722282 0%, #5f277c 26%, #1e3765 77%, #66bbb0 100%) 0% 0%
