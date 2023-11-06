@@ -95,7 +95,6 @@ body:not(.elementor-editor-active) {
     }
 }
 
-
 @media (min-width: 1025px) {
     .header-main-mobile {
         display: none !important;
@@ -107,6 +106,17 @@ body:not(.elementor-editor-active) {
         &:hover {
             background-color: var(--accent-color-1) !important;
             color: var(--accent-color-5) !important;
+        }
+    }
+}
+
+.home-hero {
+    .home-text {
+        @media (min-width: 1025px) {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
         }
     }
 }

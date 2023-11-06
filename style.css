@@ -84,4 +84,11 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
     background-color: var(--accent-color-1) !important;
     color: var(--accent-color-5) !important; }
 
+@media (min-width: 1025px) {
+  .home-hero .home-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; } }
+
 /*# sourceMappingURL=style.css.map */
