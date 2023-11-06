@@ -68,12 +68,14 @@ you don't need any @import rules
         background: transparent linear-gradient(262deg, #512D6D79 0%, #21376521 100%) 0% 0% no-repeat padding-box;
         -webkit-clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
         clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
+        top: -180px;
     }
     &:after {
         content: "";
         background: transparent linear-gradient(73deg, #EFEBF2 0%, #EFEBF300 100%) 0% 0% no-repeat padding-box;
         -webkit-clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
         clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
+        top: -180px;
     }
 }
 
