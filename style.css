@@ -36,7 +36,8 @@ you don't need any @import rules
   bottom: 0;
   background: transparent linear-gradient(250deg, #722282AC 0%, #72228212 100%) 0% 0% no-repeat padding-box;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
-  clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%); }
+  clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
+  transform: translateY(60px); }
 
 .header-main.header-main.header-main {
   margin-bottom: -200px; }
