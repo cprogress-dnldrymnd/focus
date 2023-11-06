@@ -46,13 +46,14 @@ you don't need any @import rules
             no-repeat;
         -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
         clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
+        bottom: 60px;
     }
     &:after {
         content: "";
         background: transparent linear-gradient(250deg, #722282ac 0%, #72228212 100%) 0% 0% no-repeat padding-box;
         -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
-        clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
-        transform: translateY(60px);
+        clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%);
+      
     }
 }
 
@@ -68,14 +69,13 @@ you don't need any @import rules
         background: transparent linear-gradient(262deg, #512D6D79 0%, #21376521 100%) 0% 0% no-repeat padding-box;
         -webkit-clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
         clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
-        top: -180px;
-        transform: translateY(60px);
+        top: -120px;
     }
     &:after {
         content: "";
         background: transparent linear-gradient(73deg, #EFEBF2 0%, #EFEBF300 100%) 0% 0% no-repeat padding-box;
         -webkit-clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
-        clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
+        clip-path: polygon(0 45%, 100% 0%, 100% 100%, 0 100%);
         top: -180px;
     }
 }
