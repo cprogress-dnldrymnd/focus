@@ -24,7 +24,9 @@ you don't need any @import rules
   left: 0;
   top: 0;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%); }
 .background-style-1:after {
   content: "";
   position: absolute;
