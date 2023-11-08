@@ -196,6 +196,8 @@ body:not(.elementor-editor-active) {
                 border-radius: 50px;
                 font-size: 16px;
                 margin-right: 5px;
+                display: inline-block;
+                margin-bottom: 5px;
                 &:hover {
                     background-color: var(--accent-color-11);
                     color: var(--accent-color-5);

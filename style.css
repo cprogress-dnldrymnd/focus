@@ -153,7 +153,9 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
     padding: 5px 10px;
     border-radius: 50px;
     font-size: 16px;
-    margin-right: 5px; }
+    margin-right: 5px;
+    display: inline-block;
+    margin-bottom: 5px; }
     .filters-holder .filter-item .category-filter a:hover {
       background-color: var(--accent-color-11);
       color: var(--accent-color-5); }
