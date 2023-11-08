@@ -57,12 +57,12 @@ you don't need any @import rules
 .background-style-2:before {
   background: transparent linear-gradient(76deg, #512d6d 0%, #213765 100%) 0% 0% no-repeat padding-box; }
 
-.background-style-default:before {
+.background-style-default.background-style-default.background-style-default:before {
   background: transparent linear-gradient(256deg, #722282 0%, #5f277c 26%, #432e72 84%, #1f3765 100%) 0% 0% no-repeat padding-box;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   bottom: 60px; }
-.background-style-default:after {
+.background-style-default.background-style-default.background-style-default:after {
   content: "";
   background: transparent linear-gradient(255deg, #722282ac 0%, #72228212 100%) 0% 0% no-repeat padding-box;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
