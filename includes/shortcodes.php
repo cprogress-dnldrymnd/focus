@@ -2,7 +2,7 @@
 function resource_filters() {
     ob_start();
     ?>
-    <div class="filters">
+    <div class="filters-holder">
         <div class="filter-item">
             <div class="filter-header">
                 <span>Filter by</span>

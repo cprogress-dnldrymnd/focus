@@ -137,4 +137,10 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
     font-size: 16px;
     margin-right: 5px; }
 
+.filters-holder {
+  padding: 25px;
+  background-color: var(--accent-color-5);
+  border-radius: 40px;
+  border: 1px solid #E2E2E2; }
+
 /*# sourceMappingURL=style.css.map */
