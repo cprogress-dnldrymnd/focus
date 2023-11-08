@@ -16,3 +16,5 @@ function resource_filters() {
     <?php
     return ob_get_clean();
 }
+
+add_shortcode('resource_filters', 'resource_filters');
