@@ -21,7 +21,7 @@
 </head>
 <body <?php body_class(); ?>>
 	<div id="top"></div>
-	<div id="top-bg" class="background-style-3"></div>
+	<div id="top-bg" class="background-style-default"></div>
 	<?php
 		wp_body_open();
 		do_action( 'vamtam_body' );
