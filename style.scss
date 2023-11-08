@@ -62,6 +62,21 @@ you don't need any @import rules
         background: transparent linear-gradient(76deg, #512d6d 0%, #213765 100%) 0% 0% no-repeat padding-box;
     }
 }
+.background-style-default {
+    &:before {
+        background: transparent linear-gradient(256deg, #722282 0%, #5f277c 26%, #432e72 84%, #1f3765 100%) 0% 0%
+            no-repeat padding-box;
+        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
+        bottom: 60px;
+    }
+    &:after {
+        content: "";
+        background: transparent linear-gradient(255deg, #722282ac 0%, #72228212 100%) 0% 0% no-repeat padding-box;
+        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%);
+    }
+}
 
 #top-bg {
     height: 850px;
@@ -69,21 +84,6 @@ you don't need any @import rules
     top: 0;
     left: 0;
     right: 0;
-    &.background-style-3 {
-        &:before {
-            background: transparent linear-gradient(256deg, #722282 0%, #5f277c 26%, #432e72 84%, #1f3765 100%) 0% 0%
-                no-repeat padding-box;
-            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
-            clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
-            bottom: 60px;
-        }
-        &:after {
-            content: "";
-            background: transparent linear-gradient(255deg, #722282ac 0%, #72228212 100%) 0% 0% no-repeat padding-box;
-            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
-            clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%);
-        }
-    }
 }
 
 .footer-wrapper {
