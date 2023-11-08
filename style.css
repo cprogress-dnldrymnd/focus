@@ -131,6 +131,7 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
     background-color: var(--accent-color-12);
     padding: 5px 10px;
     border-radius: 50px;
-    font-size: 16px; }
+    font-size: 16px;
+    margin-right: 5px; }
 
 /*# sourceMappingURL=style.css.map */
