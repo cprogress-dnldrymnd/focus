@@ -171,12 +171,16 @@ body:not(.elementor-editor-active) {
     left: 45px;
     position: absolute;
     font-size: 0;
+    right: 20px;
+    width: auto;
+    flex-wrap: wrap;
     a {
         background-color: var(--accent-color-12);
         padding: 5px 10px !important;
         border-radius: 50px;
         font-size: 16px;
         margin-right: 5px;
+        margin-bottom: 5px;
     }
 }
 
