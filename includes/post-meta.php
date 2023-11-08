@@ -9,7 +9,7 @@ use Carbon_Fields\Field;
 /* Page Settings
 /*-----------------------------------------------------------------------------------*/
 
-Container::make('post_meta', __('Page Settings'))
+Container::make('post_meta', __('Page Options'))
     ->where('post_type', '=', 'page')
     ->add_fields(array(
         Field::make('text', 'tesxt', 'Top Background Style'),
