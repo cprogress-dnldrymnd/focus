@@ -1,0 +1,18 @@
+<?php
+function resource_filters() {
+    ob_start();
+    ?>
+    <div class="filters">
+        <div class="filter-item">
+            <div class="filter-header">
+                <span>Filter by</span>
+                <span>Reset All</span>
+            </div>
+            <div class="filter-body">
+                <input type="text" name="s" id="search">
+            </div>
+        </div>
+    </div>
+    <?php
+    return ob_get_clean();
+}
