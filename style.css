@@ -15,10 +15,11 @@ you don't need any @import rules
 :root {
   --accent-color-1: #58afa1;
   --accent-color-5: #fff;
-  --accent-color-9: #1d1d1c; }
+  --accent-color-9: #1d1d1c;
+  --accent-color-12: #e5e1eb; }
 
 body {
-  background: transparent linear-gradient(360deg, #EFEBF200 0%, #EFEBF2 30%, #EDE9FE 100%) 0% 0% no-repeat padding-box !important; }
+  background: transparent linear-gradient(360deg, #efebf200 0%, #efebf2 30%, #ede9fe 100%) 0% 0% no-repeat padding-box !important; }
 
 .background-style,
 .footer-wrapper,
@@ -115,5 +116,10 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
     bottom: 0;
     left: 0;
     right: 0; } }
+
+.elementor-widget-post-info .elementor-icon-list-item a {
+  background-color: var(--accent-color-12);
+  padding: 5px 10px;
+  border-radius: 50px; }
 
 /*# sourceMappingURL=style.css.map */
