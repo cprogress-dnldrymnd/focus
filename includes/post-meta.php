@@ -10,8 +10,7 @@ use Carbon_Fields\Field;
 /*-----------------------------------------------------------------------------------*/
 
 Container::make('post_meta', __('Page Settings'))
-    ->where('post_type', '=', 'post')
-    ->or_where('post_type', '=', 'page')
+    ->where('post_type', '=', 'page')
     ->set_context('side')
     ->set_priority('high')
     ->add_fields(array(
