@@ -11,9 +11,9 @@ use Carbon_Fields\Field;
 
 Container::make('post_meta', __('Page Settings'))
     ->where('post_type', '=', 'page')
-    ->set_context('side')
     ->set_priority('high')
     ->add_fields(array(
+        Field::make('text', 'tesxt', 'Top Background Style')
         Field::make('select', 'top_background_style', 'Top Background Style')
             ->set_options(array(
                 'background-style-default' => 'Default',
