@@ -20,7 +20,7 @@ you don't need any @import rules
 }
 
 body {
-    background: transparent linear-gradient(360deg, #EFEBF200 0%, #EFEBF2 30%, #EDE9FE 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(360deg, #EFEBF200 0%, #EFEBF2 30%, #EDE9FE 100%) 0% 0% no-repeat padding-box !important;
 }
 .background-style,
 .footer-wrapper,
