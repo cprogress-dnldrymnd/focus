@@ -159,3 +159,16 @@ body:not(.elementor-editor-active) {
         }
     }
 }
+
+.elementor-widget-posts.vamtam-has-theme-widget-styles :is(.vamtam-post__categories, .vamtam-post__tags) {
+    top: 25px;
+    left: 45px;
+    position: absolute;
+    font-size: 0;
+    a {
+        background-color: var(--accent-color-12);
+        padding: 5px 10px;
+        border-radius: 50px;
+        font-size: 16px;
+    }
+}
