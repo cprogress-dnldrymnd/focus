@@ -181,4 +181,11 @@ body:not(.elementor-editor-active) {
     background-color: var(--accent-color-5);
     border-radius: 40px;
     border: 1px solid #E2E2E2;
+    .filter-item {
+        .filter-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
 }
