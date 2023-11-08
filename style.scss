@@ -65,6 +65,10 @@ you don't need any @import rules
 
 #top-bg {
     height: 850px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     &.background-style-3 {
         &:before {
             background: transparent linear-gradient(256deg, #722282 0%, #5f277c 26%, #432e72 84%, #1f3765 100%) 0% 0%
