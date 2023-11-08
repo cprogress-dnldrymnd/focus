@@ -159,7 +159,9 @@ body:not(.elementor-editor-active) {
         }
     }
 }
-
+.elementor-post {
+    position: relative;
+}
 .elementor-widget-posts.vamtam-has-theme-widget-styles :is(.vamtam-post__categories, .vamtam-post__tags) {
     top: 25px;
     left: 45px;
