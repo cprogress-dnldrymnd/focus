@@ -28,8 +28,9 @@
 	$top_background_style = carbon_get_the_post_meta('top_background_style');
 	?>
 	<div id="top"></div>
-
-	<div id="top-bg" class="<?= $top_background_style ? $top_background_style : 'background-style-default' ?>"></div>
+	<?php if ($top_background_style) { ?>
+		<div id="top-bg" class="<?= $top_background_style ? $top_background_style : 'background-style-default' ?>"></div>
+	<?php } ?>
 	<?php
 	wp_body_open();
 	do_action('vamtam_body');
