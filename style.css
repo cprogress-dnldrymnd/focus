@@ -17,6 +17,9 @@ you don't need any @import rules
   --accent-color-5: #fff;
   --accent-color-9: #1d1d1c; }
 
+body {
+  background: transparent linear-gradient(360deg, #EFEBF200 0%, #EFEBF2 30%, #EDE9FE 100%) 0% 0% no-repeat padding-box; }
+
 .background-style,
 .footer-wrapper,
 #top-bg {
