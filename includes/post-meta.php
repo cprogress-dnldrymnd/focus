@@ -1,4 +1,5 @@
 <?php
+
 use Carbon_Fields\Container;
 use Carbon_Fields\Complex_Container;
 use Carbon_Fields\Field;
@@ -10,7 +11,6 @@ use Carbon_Fields\Field;
 
 Container::make('post_meta', __('Page Settings'))
     ->where('post_type', '=', 'page')
-    ->set_priority('high')
     ->add_fields(array(
         Field::make('text', 'tesxt', 'Top Background Style'),
         Field::make('select', 'top_background_style', 'Top Background Style')
