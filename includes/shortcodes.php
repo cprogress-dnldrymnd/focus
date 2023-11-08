@@ -20,7 +20,7 @@ function resource_filters()
                 <span>Clear</span>
             </div>
             <div class="filter-body">
-                <div class="category-fitler">
+                <div class="category-filter">
                     <?php foreach ($categories as $categ) { ?>
                         <?php if ($categ->name != 'Uncategorized') { ?>
                             <a href="<?= get_term_link($categ->term_id) ?>"><?= $categ->name ?></a>
