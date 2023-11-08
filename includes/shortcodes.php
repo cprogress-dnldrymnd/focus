@@ -16,8 +16,8 @@ function resource_filters()
         </div>
         <div class="filter-item">
             <div class="filter-header">
-                <span>Filter by</span>
-                <span>Reset All</span>
+                <span>Resource Type</span>
+                <span>Clear</span>
             </div>
             <div class="filter-body">
                 <div class="category-fitler">
