@@ -9,7 +9,7 @@ function resource_filters() {
                 <span>Reset All</span>
             </div>
             <div class="filter-body">
-                <input type="text" name="s" id="search">
+                <input type="text" name="s" id="search" placeholder="Search…">
             </div>
         </div>
     </div>
