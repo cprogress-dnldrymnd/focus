@@ -29,7 +29,7 @@
 	?>
 	<div id="top"></div>
 	<?php if ($top_background_style) { ?>
-		<div id="top-bg" class="<?= $top_background_style ? $top_background_style : 'background-style-default' ?>"></div>
+		<div id="top-bg" class="background-style <?= $top_background_style ? $top_background_style : 'background-style-default' ?>"></div>
 	<?php } ?>
 	<?php
 	wp_body_open();
