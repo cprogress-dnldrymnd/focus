@@ -22,7 +22,9 @@ function resource_filters()
             <div class="filter-body">
                 <div class="category-fitler">
                     <?php foreach ($categories as $categ) { ?>
-                        <a href="<?= get_term_link($categ->term_id) ?>"><?= $categ->name ?></a>
+                        <?php if ($categ->name != 'Uncategorized') { ?>
+                            <a href="<?= get_term_link($categ->term_id) ?>"><?= $categ->name ?></a>
+                        <?php } ?>
                     <?php } ?>
                 </div>
             </div>
