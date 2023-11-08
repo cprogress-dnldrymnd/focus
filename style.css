@@ -18,13 +18,16 @@ you don't need any @import rules
   --accent-color-9: #1d1d1c; }
 
 .background-style,
-.footer-wrapper {
+.footer-wrapper,
+#top-bg {
   position: relative; }
   .background-style .elementor-container,
-  .footer-wrapper .elementor-container {
+  .footer-wrapper .elementor-container,
+  #top-bg .elementor-container {
     z-index: 1; }
   .background-style:before,
-  .footer-wrapper:before {
+  .footer-wrapper:before,
+  #top-bg:before {
     content: "";
     position: absolute;
     left: 0;
@@ -32,7 +35,8 @@ you don't need any @import rules
     right: 0;
     bottom: 0; }
   .background-style:after,
-  .footer-wrapper:after {
+  .footer-wrapper:after,
+  #top-bg:after {
     position: absolute;
     left: 0;
     top: 0;
@@ -52,6 +56,19 @@ you don't need any @import rules
 
 .background-style-2:before {
   background: transparent linear-gradient(76deg, #512d6d 0%, #213765 100%) 0% 0% no-repeat padding-box; }
+
+#top-bg {
+  height: 850px; }
+  #top-bg.background-style-3:before {
+    background: transparent linear-gradient(256deg, #722282 0%, #5f277c 26%, #432e72 84%, #1f3765 100%) 0% 0% no-repeat padding-box;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
+    bottom: 60px; }
+  #top-bg.background-style-3:after {
+    content: "";
+    background: transparent linear-gradient(255deg, #722282ac 0%, #72228212 100%) 0% 0% no-repeat padding-box;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%); }
 
 .footer-wrapper:before {
   background: transparent linear-gradient(262deg, #512d6d79 0%, #21376521 100%) 0% 0% no-repeat padding-box;
