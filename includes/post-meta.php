@@ -19,6 +19,6 @@ Container::make('post_meta', __('Page Settings'))
                 'background-style-1' => 'Style 1',
                 'background-style-2' => 'Style 2',
                 'background-style-3' => 'Style 3',
-                '' => 'None',
+                'background-none' => 'None',
             )),
     ));
