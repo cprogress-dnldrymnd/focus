@@ -141,16 +141,16 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
   padding: 25px;
   background-color: var(--accent-color-5);
   border-radius: 40px;
-  border: 1px solid #E2E2E2; }
+  border: 1px solid #e2e2e2; }
   .filters-holder .filter-item .filter-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px; }
-    .filters-holder .filter-item .filter-header input {
-      width: 100%; }
+  .filters-holder .filter-item input {
+    width: 100%; }
   .filters-holder .filter-item:not(:last-child) {
-    border-bottom: 1px solid #E2E2E2;
+    border-bottom: 1px solid #e2e2e2;
     padding-bottom: 20px;
     margin-bottom: 20px; }
 
