@@ -145,6 +145,13 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
   .filters-holder .filter-item .filter-header {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    margin-bottom: 30px; }
+    .filters-holder .filter-item .filter-header input {
+      width: 100%; }
+  .filters-holder .filter-item:not(:last-child) {
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 20px;
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
