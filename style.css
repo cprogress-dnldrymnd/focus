@@ -36,7 +36,8 @@ body #main-content {
     top: 0;
     right: 0;
     left: 0;
-    height: 50%; }
+    height: 50%;
+    z-index: -1; }
 
 .background-style,
 .footer-wrapper,
