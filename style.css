@@ -75,7 +75,7 @@ body #main-content {
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   bottom: 60px !important; }
-  @media (max-width: 575px) {
+  @media (max-width: 767px) {
     .background-style-default:before {
       -webkit-clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
       clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%); } }
@@ -84,7 +84,7 @@ body #main-content {
   background: transparent linear-gradient(255deg, #722282ac 0%, #72228212 100%) 0% 0% no-repeat padding-box;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%); }
-  @media (max-width: 575px) {
+  @media (max-width: 767px) {
     .background-style-default:after {
       clip-path: polygon(0 0, 100% 0%, 100% 66%, 0 100%); } }
 
@@ -93,7 +93,7 @@ body #main-content {
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   bottom: 60px !important; }
-  @media (max-width: 575px) {
+  @media (max-width: 767px) {
     .background-style-3:before {
       -webkit-clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
       clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%); } }
@@ -102,7 +102,7 @@ body #main-content {
   background: transparent linear-gradient(255deg, #66bbb0 0%, #66bbb051 28%, #66bbb000 100%) 0% 0% no-repeat padding-box;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%); }
-  @media (max-width: 575px) {
+  @media (max-width: 767px) {
     .background-style-3:after {
       clip-path: polygon(0 0, 100% 0%, 100% 66%, 0 100%); } }
 
