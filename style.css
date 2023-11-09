@@ -28,7 +28,14 @@ you don't need any @import rules
     display: none !important; } }
 
 body #main-content {
-  background: transparent linear-gradient(360deg, #efebf200 0%, #efebf2 30%, #ede9fe 100%) 0% 0% no-repeat padding-box !important; }
+  position: relative; }
+  body #main-content:before {
+    background: transparent linear-gradient(360deg, #efebf200 0%, #efebf2 30%, #ede9fe 100%) 0% 0% no-repeat padding-box !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50vw; }
 
 .background-style,
 .footer-wrapper,
