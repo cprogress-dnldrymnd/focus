@@ -43,6 +43,8 @@ Container::make('post_meta', __('Case Study Settings'))
                 Field::make('image', 'icon', __('Icon')),
                 Field::make('text', 'title', __('Text')),
             ))
+
+            /*
             ->set_default_value(array(
                 array(
                     'icon' => 988740,
@@ -61,7 +63,7 @@ Container::make('post_meta', __('Case Study Settings'))
                     'title' => 'Lorem ipsum dolor sit',
                 ),
               
-            ))
+            ))*/
             ->set_layout('tabbed-vertical')
             ->set_header_template('<%- title %>')
     ));
