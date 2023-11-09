@@ -178,18 +178,20 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
     padding: 10px;
     color: #000; }
 
-.key-facts .key-facts-title {
-  font-size: 18px; }
-.key-facts .key-facts-holder .key-facts-item {
-  display: flex; }
-  .key-facts .key-facts-holder .key-facts-item .icon {
-    flex: 0 0 auto;
-    width: 35px;
-    margin-right: 16px; }
-  .key-facts .key-facts-holder .key-facts-item .text {
-    font-weight: bold;
-    color: #000; }
-  .key-facts .key-facts-holder .key-facts-item:not(:last-child) {
-    margin-bottom: 10px; }
+.key-facts {
+  padding: 10px; }
+  .key-facts .key-facts-title {
+    font-size: 18px; }
+  .key-facts .key-facts-holder .key-facts-item {
+    display: flex; }
+    .key-facts .key-facts-holder .key-facts-item .icon {
+      flex: 0 0 auto;
+      width: 35px;
+      margin-right: 16px; }
+    .key-facts .key-facts-holder .key-facts-item .text {
+      font-weight: bold;
+      color: #000; }
+    .key-facts .key-facts-holder .key-facts-item:not(:last-child) {
+      margin-bottom: 10px; }
 
 /*# sourceMappingURL=style.css.map */
