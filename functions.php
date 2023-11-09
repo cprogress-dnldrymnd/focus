@@ -15,10 +15,3 @@ function tissue_paper_register_custom_fields()
 }
 
 require_once('includes/shortcodes.php');
-
-
-add_filter( 'use_block_editor_for_post_type', 'prefix_disable_gutenberg', 10, 2 );
-function prefix_disable_gutenberg( $current_status, $post_type ) {
-    if ( 'page' === $post_type ) return false;
-    return $current_status;
-}
