@@ -80,10 +80,6 @@ body {
 .background-style-custom-slant {
     &:before {
         background: transparent linear-gradient(76deg, #512d6d 0%, #213765 100%) 0% 0% no-repeat padding-box;
-        @media (min-width: 1025px) {
-            -webkit-clip-path: polygon(0 44%, 100% 0%, 100% 73%, 0 100%);
-            clip-path: polygon(0 38%, 100% 0%, 100% 73%, 0 100%);
-        }
     }
 }
 .background-style-2 {
