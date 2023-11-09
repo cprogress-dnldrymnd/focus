@@ -12,6 +12,7 @@ Container::make('post_meta', __('Page Settings'))
     ->where('post_type', '=', 'page')
     ->or_where('post_type', '=', 'post')
     ->set_priority('high')
+    ->set_context('side')
     ->add_fields(array(
         Field::make('select', 'top_background_style', 'Top Background Style')
             ->set_options(array(
