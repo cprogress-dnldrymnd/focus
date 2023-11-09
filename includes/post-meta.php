@@ -32,14 +32,15 @@ Container::make('post_meta', __('Case Study Settings'))
     ->where('post_type', '=', 'post')
     ->set_priority('high')
     ->add_fields(array(
-        Field::make('text', 'client', 'Client'),
-        Field::make('text', 'project', 'Project'),
-        Field::make('text', 'location', 'Location'),
-        Field::make('text', 'value', 'Value'),
-        Field::make('text', 'services', 'Services'),
+        Field::make('text', 'client', 'Client')->set_width(50),
+        Field::make('text', 'project', 'Project')->set_width(50),
+        Field::make('text', 'location', 'Location')->set_width(50),
+        Field::make('text', 'value', 'Value')->set_width(50),
+        Field::make('text', 'services', 'Services')->set_width(50),
         Field::make('complex', 'key_facts', __('Key Facts'))
             ->add_fields(array(
                 Field::make('image', 'photo', __('Icon')),
                 Field::make('text', 'title', __('Text')),
             ))
+            ->set_layout('tabbed-vertical')
     ));
