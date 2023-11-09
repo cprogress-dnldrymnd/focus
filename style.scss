@@ -283,8 +283,15 @@ body:not(.elementor-editor-active) {
 }
 
 .single-post {
-    h1, h2, h3, h4, h5, h6 {
-        margin-bottom: 1.5rem;
-        margin-top: 1.5rem;
+    .elementor-widget-text-editor {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-bottom: 1.5rem;
+            margin-top: 1.5rem;
+        }
     }
 }
