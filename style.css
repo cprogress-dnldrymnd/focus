@@ -73,6 +73,17 @@ body #main-content {
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%); }
 
+.background-style-3:before {
+  background: transparent linear-gradient(256deg, #66bbb0 0%, #1f3765 100%) 0% 0% no-repeat padding-box;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
+  bottom: 60px !important; }
+.background-style-3:after {
+  content: "";
+  background: transparent linear-gradient(255deg, #66bbb0 0%, #66bbb051 28%, #66bbb000 100%) 0% 0% no-repeat padding-box;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%); }
+
 #top-bg {
   height: 850px;
   position: absolute;
