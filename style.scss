@@ -160,6 +160,12 @@ body {
     }
 }
 
+.background-gradient-mobile{
+    @media(max-width: 767px) {
+        background-image: linear-gradient(180deg, var(--e-global-color-a0dbe9c) 0%, var(--e-global-color-d42c63c) 100%);
+    }
+}
+
 .header-main.header-main.header-main {
     margin-bottom: var(--header-height-negative, -196px);
 
