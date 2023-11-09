@@ -241,6 +241,7 @@ body:not(.elementor-editor-active) {
     }
     .key-facts-holder {
         .key-facts-item {
+            display: flex;
             .icon {
                 flex: 0 0 auto;
                 width: 35px;
@@ -248,6 +249,7 @@ body:not(.elementor-editor-active) {
             }
             .text {
                 font-weight: bold;
+                color: #000;
             }
             &:not(:last-child) {
                 margin-bottom: 10px;
