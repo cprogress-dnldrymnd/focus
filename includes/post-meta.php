@@ -74,5 +74,4 @@ Container::make('post_meta', __('Case Study Settings'))
             ->set_header_template('<%- title %>')
     ));
 
-
-    .
+    
