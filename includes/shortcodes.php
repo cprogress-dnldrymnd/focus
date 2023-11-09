@@ -67,11 +67,11 @@ function project_overview()
     ?>
     <div class="project-overview">
         <table>
-            <?= project_overview_item($client, 'Client') ?>;
-            <?= project_overview_item($project, 'Project') ?>;
-            <?= project_overview_item($location, 'Location') ?>;
-            <?= project_overview_item($value, 'Value') ?>;
-            <?= project_overview_item($services, 'Services') ?>;
+            <?= project_overview_item($client, 'Client') ?>
+            <?= project_overview_item($project, 'Project') ?>
+            <?= project_overview_item($location, 'Location') ?>
+            <?= project_overview_item($value, 'Value') ?>
+            <?= project_overview_item($services, 'Services') ?>
         </table>
     </div>
 <?php
