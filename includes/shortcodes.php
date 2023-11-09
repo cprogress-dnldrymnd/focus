@@ -66,7 +66,7 @@ function project_overview()
     $key_facts = carbon_get_the_post_meta('key_facts');
     ?>
     <div class="project-overview">
-        <table>
+        <table class="table-style">
             <?= project_overview_item($client, 'Client') ?>
             <?= project_overview_item($project, 'Project') ?>
             <?= project_overview_item($location, 'Location') ?>
@@ -82,7 +82,7 @@ function project_overview()
                     <?php foreach ($key_facts as $key_fact) { ?>
                         <div class="key-facts-item">
                             <div class="icon">
-                                <?= wp_get_attachment_image_url($key_fact['icon']) ?>
+                                <img src="<?= wp_get_attachment_image_url($key_fact['icon']) ?>">
                             </div>
                             <div class="text">
                                 <?= $key_fact['text'] ?>
