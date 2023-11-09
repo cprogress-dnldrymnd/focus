@@ -20,6 +20,18 @@ you don't need any @import rules
     --accent-color-12: #e5e1eb;
     --accent-color-11: #512d6d;
 }
+html {
+    @media (max-width: 1024px) {
+        &.no-js.no-js.no-js.no-js {
+            margin-top: 0 !important;
+        }
+    }
+}
+#wpadminbar {
+    @media (max-width: 1024px) {
+        display: none !important;
+    }
+}
 
 body {
     #main-content {

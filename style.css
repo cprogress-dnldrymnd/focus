@@ -19,6 +19,14 @@ you don't need any @import rules
   --accent-color-12: #e5e1eb;
   --accent-color-11: #512d6d; }
 
+@media (max-width: 1024px) {
+  html.no-js.no-js.no-js.no-js {
+    margin-top: 0 !important; } }
+
+@media (max-width: 1024px) {
+  #wpadminbar {
+    display: none !important; } }
+
 body #main-content {
   background: transparent linear-gradient(360deg, #efebf200 0%, #efebf2 30%, #ede9fe 100%) 0% 0% no-repeat padding-box !important; }
 
