@@ -29,7 +29,7 @@ Container::make('post_meta', __('Page Settings'))
 /* Page Settings
 /*-----------------------------------------------------------------------------------*/
 
-Container::make('post_meta', __('Case Study Settings[Option only for case study category]'))
+Container::make('post_meta', __('Case Study Settings[For case study category]'))
     ->where('post_type', '=', 'post')
     ->set_priority('high')
     ->add_fields(array(
