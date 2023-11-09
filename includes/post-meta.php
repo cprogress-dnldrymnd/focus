@@ -10,6 +10,7 @@ use Carbon_Fields\Field;
 
 Container::make('post_meta', __('Page Settings'))
     ->where('post_type', '=', 'page')
+    ->or_where('post_type', '=', 'post')
     ->set_priority('high')
     ->add_fields(array(
         Field::make('select', 'top_background_style', 'Top Background Style')
