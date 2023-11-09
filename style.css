@@ -211,4 +211,8 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
 #page {
   padding-top: var(--header-height, 196px); }
 
+.single-post h1, .single-post h2, .single-post h3, .single-post h4, .single-post h5, .single-post h6 {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem; }
+
 /*# sourceMappingURL=style.css.map */

@@ -281,3 +281,10 @@ body:not(.elementor-editor-active) {
 #page {
     padding-top: var(--header-height, 196px);
 }
+
+.single-post {
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+}
