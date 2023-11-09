@@ -182,7 +182,8 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
   padding: 10px; }
   .key-facts .key-facts-title {
     font-size: 18px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    color: #000; }
   .key-facts .key-facts-holder .key-facts-item {
     display: flex;
     align-items: center; }
