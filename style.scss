@@ -221,3 +221,14 @@ body:not(.elementor-editor-active) {
         }
     }
 }
+
+.table-style {
+    color: #000;
+    font-size: 18px;
+    tr {
+        border-bottom: 1px solid #e2e2e2;
+        td {
+            padding: 10px;
+        }
+    }
+}

@@ -73,6 +73,25 @@ function project_overview()
             <?= project_overview_item($value, 'Value') ?>
             <?= project_overview_item($services, 'Services') ?>
         </table>
+        <?php if ($key_facts) { ?>
+            <div class="key-facts">
+                <div class="key-facts-title">
+                    Key Facts:
+                </div>
+                <div class="key-facts-holder">
+                    <?php foreach ($key_facts as $key_fact) { ?>
+                        <div class="key-facts-item">
+                            <div class="icon">
+                                <?= wp_get_attachment_image_url($key_fact['icon']) ?>
+                            </div>
+                            <div class="text">
+                                <?= $key_fact['text'] ?>
+                            </div>
+                        </div>
+                    <?php } ?>
+                </div>
+            </div>
+        <?php } ?>
     </div>
 <?php
     return ob_get_clean();
