@@ -264,4 +264,13 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
   margin-bottom: 1.5rem;
   margin-top: 1.5rem; }
 
+.white-color-mobile h2,
+.white-color-mobile h3,
+.white-color-mobile h4,
+.white-color-mobile h5,
+.white-color-mobile h6,
+.white-color-mobile p,
+.white-color-mobile li {
+  color: var(--accent-color-5); }
+
 /*# sourceMappingURL=style.css.map */

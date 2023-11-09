@@ -354,3 +354,15 @@ body:not(.elementor-editor-active) {
         }
     }
 }
+
+.white-color-mobile {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    li {
+        color: var(--accent-color-5);
+    }
+}
