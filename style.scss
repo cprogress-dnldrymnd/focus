@@ -374,3 +374,7 @@ body:not(.elementor-editor-active) {
         }
     }
 }
+
+button, input, select, textarea {
+    font-family: inherit !important;
+}

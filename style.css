@@ -279,5 +279,7 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
   .white-color-mobile p,
   .white-color-mobile li {
     color: var(--accent-color-5) !important; } }
+button, input, select, textarea {
+  font-family: inherit !important; }
 
 /*# sourceMappingURL=style.css.map */
