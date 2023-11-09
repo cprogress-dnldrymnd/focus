@@ -140,7 +140,11 @@ body {
 }
 
 .header-main.header-main.header-main {
-    margin-bottom: -200px;
+    margin-bottom: var(--header-height-negative, -196px);
+
+    @media(max-width: 1024px) {
+        top: 0 !important;
+    }
 }
 body:not(.elementor-editor-active) {
     .header-main.header-main.header-main {

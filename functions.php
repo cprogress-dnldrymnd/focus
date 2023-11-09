@@ -24,6 +24,7 @@ function action_wp_footer()
 		jQuery(document).ready(function() {
 			$header_height = jQuery('div[data-elementor-type="header"]').outerHeight();
 			jQuery('body').css('--header-height', $header_height + 'px');
+			jQuery('body').css('--header-height-negative', '-' + $header_height + 'px');
 		});
 	</script>
 <?php
