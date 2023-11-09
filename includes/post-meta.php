@@ -39,24 +39,24 @@ Container::make('post_meta', __('Case Study Settings'))
         Field::make('text', 'services', 'Services')->set_width(50),
         Field::make('complex', 'key_facts', __('Key Facts'))
             ->add_fields(array(
-                Field::make('image', 'photo', __('Icon')),
+                Field::make('image', 'icon', __('Icon')),
                 Field::make('text', 'title', __('Text')),
             ))
             ->set_default_value(array(
                 array(
-                    'image' => 988740,
+                    'icon' => 988740,
                     'text' => 'Lorem ipsum dolor sit',
                 ),
                 array(
-                    'image' => 988739,
+                    'icon' => 988739,
                     'text' => 'Lorem ipsum dolor sit',
                 ),
                 array(
-                    'image' => 988738,
+                    'icon' => 988738,
                     'text' => 'Lorem ipsum dolor sit',
                 ),
                 array(
-                    'image' => 988737,
+                    'icon' => 988737,
                     'text' => 'Lorem ipsum dolor sit',
                 ),
               
