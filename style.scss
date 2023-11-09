@@ -261,3 +261,7 @@ body:not(.elementor-editor-active) {
         }
     }
 }
+
+#page {
+    padding-top: var(--header-height, 196px);
+}
