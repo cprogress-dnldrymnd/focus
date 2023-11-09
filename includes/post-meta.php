@@ -44,19 +44,19 @@ Container::make('post_meta', __('Case Study Settings'))
             ->set_default_value(array(
                 array(
                     'icon' => 988740,
-                    'text' => 'Lorem ipsum dolor sit',
+                    'title' => 'Lorem ipsum dolor sit',
                 ),
                 array(
                     'icon' => 988739,
-                    'text' => 'Lorem ipsum dolor sit',
+                    'title' => 'Lorem ipsum dolor sit',
                 ),
                 array(
                     'icon' => 988738,
-                    'text' => 'Lorem ipsum dolor sit',
+                    'title' => 'Lorem ipsum dolor sit',
                 ),
                 array(
                     'icon' => 988737,
-                    'text' => 'Lorem ipsum dolor sit',
+                    'title' => 'Lorem ipsum dolor sit',
                 ),
               
             ))
