@@ -363,6 +363,6 @@ body:not(.elementor-editor-active) {
     h6,
     p,
     li {
-        color: var(--accent-color-5);
+        color: var(--accent-color-5) !important;
     }
 }

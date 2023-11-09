@@ -271,6 +271,6 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
 .white-color-mobile h6,
 .white-color-mobile p,
 .white-color-mobile li {
-  color: var(--accent-color-5); }
+  color: var(--accent-color-5) !important; }
 
 /*# sourceMappingURL=style.css.map */
