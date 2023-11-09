@@ -30,8 +30,51 @@ function resource_filters()
             </div>
         </div>
     </div>
-<?php
+    <?php
     return ob_get_clean();
 }
 
 add_shortcode('resource_filters', 'resource_filters');
+
+
+function project_overview_item($value, $label = '')
+{
+    ob_start();
+    if ($value) {
+    ?>
+        <tr>
+            <td class="label">
+                <strong><?= $label ?></strong>
+            </td>
+            <td>
+                <?= $value ?>
+            </td>
+        </tr>
+    <?php
+        return ob_get_clean();
+    }
+}
+
+function project_overview()
+{
+    ob_start();
+    $client = carbon_get_the_post_meta('client');
+    $project = carbon_get_the_post_meta('project');
+    $location = carbon_get_the_post_meta('location');
+    $value = carbon_get_the_post_meta('value');
+    $services = carbon_get_the_post_meta('services');
+    $key_facts = carbon_get_the_post_meta('key_facts');
+    ?>
+    <div class="project-overview">
+        <table>
+            <?= project_overview_item($client, 'Client') ?>;
+            <?= project_overview_item($project, 'Project') ?>;
+            <?= project_overview_item($location, 'Location') ?>;
+            <?= project_overview_item($value, 'Value') ?>;
+            <?= project_overview_item($services, 'Services') ?>;
+        </table>
+    </div>
+<?php
+    return ob_get_clean();
+}
+add_shortcode('project_overview', 'project_overview');
