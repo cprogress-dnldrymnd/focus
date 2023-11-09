@@ -232,3 +232,24 @@ body:not(.elementor-editor-active) {
         }
     }
 }
+
+.key-facts {
+    .key-facts-title {
+        font-size: 18px;
+    }
+    .key-facts-holder {
+        .key-facts-item {
+            .icon {
+                flex: 0 0 auto;
+                width: 35px;
+                margin-right: 16px;
+            }
+            .text {
+                font-weight: bold;
+            }
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

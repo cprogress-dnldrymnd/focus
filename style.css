@@ -178,4 +178,15 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
     .table-style tr td {
       padding: 10px; }
 
+.key-facts .key-facts-title {
+  font-size: 18px; }
+.key-facts .key-facts-holder .key-facts-item .icon {
+  flex: 0 0 auto;
+  width: 35px;
+  margin-right: 16px; }
+.key-facts .key-facts-holder .key-facts-item .text {
+  font-weight: bold; }
+.key-facts .key-facts-holder .key-facts-item:not(:last-child) {
+  margin-bottom: 10px; }
+
 /*# sourceMappingURL=style.css.map */

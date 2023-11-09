@@ -76,7 +76,7 @@ function project_overview()
         <?php if ($key_facts) { ?>
             <div class="key-facts">
                 <div class="key-facts-title">
-                    Key Facts:
+                    <strong>Key Facts:</strong>
                 </div>
                 <div class="key-facts-holder">
                     <?php foreach ($key_facts as $key_fact) { ?>
