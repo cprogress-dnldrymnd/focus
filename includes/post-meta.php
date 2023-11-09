@@ -29,7 +29,7 @@ Container::make('post_meta', __('Page Settings'))
 /* Page Settings
 /*-----------------------------------------------------------------------------------*/
 
-Container::make('post_meta', __('Case Study Settings[For case study category]'))
+Container::make('post_meta', __('Case Study Settings'))
     ->where('post_type', '=', 'post')
     ->where('post_term', '=', array(
         'field' => 'slug',
