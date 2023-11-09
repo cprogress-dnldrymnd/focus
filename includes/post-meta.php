@@ -31,7 +31,13 @@ Container::make('post_meta', __('Page Settings'))
 
 Container::make('post_meta', __('Case Study Settings[For case study category]'))
     ->where('post_type', '=', 'post')
+    ->where('post_term', '=', array(
+        'field' => 'slug',
+        'value' => 'case-studies',
+        'taxonomy' => 'category',
+    ))
     ->set_priority('high')
+
     ->add_fields(array(
         Field::make('text', 'client', 'Client')->set_width(50),
         Field::make('text', 'project', 'Project')->set_width(50),
