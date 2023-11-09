@@ -97,8 +97,8 @@ body {
         clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
         bottom: 60px !important;
         @media (max-width: 767px) {
-            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
-            clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
+            -webkit-clip-path: polygon(0 44%, 100% 0%, 100% 65%, 0 100%);
+            clip-path: polygon(0 44%, 100% 0%, 100% 65%, 0 100%);
         }
     }
     &:after {
