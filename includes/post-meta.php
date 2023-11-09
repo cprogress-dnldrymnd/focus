@@ -42,5 +42,24 @@ Container::make('post_meta', __('Case Study Settings'))
                 Field::make('image', 'photo', __('Icon')),
                 Field::make('text', 'title', __('Text')),
             ))
+            ->set_default_value(array(
+                array(
+                    'image' => 988740,
+                    'text' => 'Lorem ipsum dolor sit',
+                ),
+                array(
+                    'image' => 988739,
+                    'text' => 'Lorem ipsum dolor sit',
+                ),
+                array(
+                    'image' => 988738,
+                    'text' => 'Lorem ipsum dolor sit',
+                ),
+                array(
+                    'image' => 988737,
+                    'text' => 'Lorem ipsum dolor sit',
+                ),
+              
+            ))
             ->set_layout('tabbed-vertical')
     ));
