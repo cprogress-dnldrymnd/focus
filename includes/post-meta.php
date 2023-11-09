@@ -62,4 +62,5 @@ Container::make('post_meta', __('Case Study Settings'))
               
             ))
             ->set_layout('tabbed-vertical')
+            ->set_header_template('<%- title %>')
     ));
