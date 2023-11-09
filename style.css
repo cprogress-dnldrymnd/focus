@@ -67,9 +67,6 @@ body #main-content {
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%); }
 
-.background-style-custom-slant:before {
-  background: transparent linear-gradient(76deg, #512d6d 0%, #213765 100%) 0% 0% no-repeat padding-box; }
-
 .background-style-2:before {
   background: transparent linear-gradient(76deg, #512d6d 0%, #213765 100%) 0% 0% no-repeat padding-box; }
 
