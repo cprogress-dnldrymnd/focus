@@ -44,7 +44,7 @@ function project_overview_item($value, $label = '')
     ?>
         <tr>
             <td class="label">
-                <strong><?= $label ?></strong>
+                <strong><?= $label ?>: </strong>
             </td>
             <td>
                 <?= $value ?>

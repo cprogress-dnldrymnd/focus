@@ -170,13 +170,13 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
     padding-bottom: 20px;
     margin-bottom: 20px; }
 
-.table-style {
-  color: #000;
+.table-style .label {
   font-size: 18px; }
-  .table-style tr {
-    border-bottom: 1px solid #e2e2e2; }
-    .table-style tr td {
-      padding: 10px; }
+.table-style tr {
+  border-bottom: 1px solid #e2e2e2; }
+  .table-style tr td {
+    padding: 10px;
+    color: #000; }
 
 .key-facts .key-facts-title {
   font-size: 18px; }
