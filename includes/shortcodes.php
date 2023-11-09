@@ -85,7 +85,7 @@ function project_overview()
                                 <img src="<?= wp_get_attachment_image_url($key_fact['icon']) ?>">
                             </div>
                             <div class="text">
-                                <?= $key_fact['text'] ?>
+                                <?= $key_fact['title'] ?>
                             </div>
                         </div>
                     <?php } ?>
