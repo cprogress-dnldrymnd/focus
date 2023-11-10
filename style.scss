@@ -377,11 +377,35 @@ body {
     &.mobile-header-bg {
         @media (max-width: 1024px) {
             div[data-elementor-type="header"] {
-                > section, > header {
-                    background: transparent linear-gradient(256deg, #722282 0%, #5f277c 26%, #432e72 84%, #1f3765 100%)
-                        0% 0% no-repeat padding-box;
+                > section,
+                > header {
+                    &:before {
+                        opacity: 1;
+                    }
                 }
             }
+        }
+    }
+}
+
+div[data-elementor-type="header"] {
+    > section,
+    > header {
+        > div {
+            position: relative;
+            z-index: 1;
+        }
+        &:before {
+            content: "";
+            background: transparent linear-gradient(256deg, #722282 0%, #5f277c 26%, #432e72 84%, #1f3765 100%) 0% 0%
+                no-repeat padding-box;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            opacity: 0;
+            transition: 300ms;
         }
     }
 }
