@@ -369,8 +369,16 @@ body {
     }
     &.hide-top-bg-mobile {
         #top-bg {
-            @media(max-width: 767px) {
+            @media (max-width: 767px) {
                 display: none;
+            }
+        }
+    }
+    &.mobile-header-bg {
+        @media (max-width: 1024px) {
+            div[data-elementor-type="header"] {
+                background: transparent linear-gradient(256deg, #722282 0%, #5f277c 26%, #432e72 84%, #1f3765 100%) 0%
+                    0% no-repeat padding-box;
             }
         }
     }
