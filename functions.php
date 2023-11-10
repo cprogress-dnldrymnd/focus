@@ -22,10 +22,21 @@ function action_wp_footer()
 ?>
 	<script>
 		jQuery(document).ready(function() {
+			header_height();
+		});
+
+		function header_background() {
+			jQuery(window).scroll(function() {
+				console.log('scrolling');
+			});
+		}
+
+
+		function header_height() {
 			$header_height = jQuery('div[data-elementor-type="header"]').outerHeight();
 			jQuery('body').css('--header-height', $header_height + 'px');
 			jQuery('body').css('--header-height-negative', '-' + $header_height + 'px');
-		});
+		}
 	</script>
 <?php
 }
@@ -40,7 +51,7 @@ function custom_class($classes)
 	$disable_top_padding = carbon_get_the_post_meta('disable_top_padding');
 	$hide_top_bg_on_mobile = carbon_get_the_post_meta('hide_top_bg_on_mobile');
 
-	
+
 	if ($disable_top_padding) {
 		$classes[] = 'disable-padding-top';
 	}
