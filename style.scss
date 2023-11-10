@@ -361,8 +361,12 @@ body:not(.elementor-editor-active) {
     }
 }
 
-#page {
-    padding-top: var(--header-height, 196px);
+body {
+    &:not(.disable-padding-top) {
+        #page {
+            padding-top: var(--header-height, 196px);
+        }
+    }
 }
 
 .single-post {
