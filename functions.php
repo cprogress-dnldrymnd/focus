@@ -30,7 +30,7 @@ function action_wp_footer()
 		});
 		function header_background() {
 			$scrolltop = jQuery(document).scrollTop();
-			console.log($scrolling);
+			console.log($scrolltop);
 		}
 
 
