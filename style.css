@@ -283,6 +283,9 @@ body:not(.disable-padding-top) #page {
   body.mobile-header-bg .elementor-location-header > section:before,
   body.mobile-header-bg .elementor-location-header > header:before {
     opacity: 1; } }
+@media (max-width: 1024px) {
+  body.vamtam-disable-scroll .elementor-location-header .elementor-nav-menu--dropdown {
+    transform: translateX(0) !important; } }
 
 .elementor-location-header > section > div,
 .elementor-location-header > header > div {
@@ -305,7 +308,11 @@ body:not(.disable-padding-top) #page {
     top: var(--header-height) !important;
     bottom: 0px !important;
     border-radius: 0px !important;
-    left: 0 !important; } }
+    left: 0 !important;
+    transform: translateX(-100%) !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    right: 0 !important; } }
 
 .single-post .elementor-widget-text-editor h1,
 .single-post .elementor-widget-text-editor h2,
