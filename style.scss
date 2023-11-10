@@ -160,6 +160,15 @@ body {
         -webkit-clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
         clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
         top: -120px;
+
+        @media (max-width: 1024px) {
+            -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0 100%);
+            clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0 100%);
+        }
+        @media (max-width: 767px) {
+            -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
+            clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
+        }
     }
     &:after {
         content: "";
@@ -167,6 +176,15 @@ body {
         -webkit-clip-path: polygon(0 48%, 100% 0%, 100% 100%, 0 100%);
         clip-path: polygon(0 45%, 100% 0%, 100% 100%, 0 100%);
         top: -180px;
+
+        @media (max-width: 1024px) {
+            -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0 100%);
+            clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0 100%);
+        }
+        @media (max-width: 767px) {
+            -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
+            clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
+        }
     }
 }
 
@@ -375,6 +393,9 @@ body:not(.elementor-editor-active) {
     }
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
     font-family: inherit !important;
 }
