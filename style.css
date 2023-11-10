@@ -276,8 +276,9 @@ body:not(.elementor-editor-active) .header-main.header-main.header-main.vamtam-s
 
 body:not(.disable-padding-top) #page {
   padding-top: var(--header-height, 196px); }
-body.hide-top-bg-mobile #top-bg {
-  display: none; }
+@media (max-width: 767px) {
+  body.hide-top-bg-mobile #top-bg {
+    display: none; } }
 
 .single-post .elementor-widget-text-editor h1,
 .single-post .elementor-widget-text-editor h2,

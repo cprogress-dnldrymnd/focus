@@ -369,7 +369,9 @@ body {
     }
     &.hide-top-bg-mobile {
         #top-bg {
-            display: none;
+            @media(max-width: 767px) {
+                display: none;
+            }
         }
     }
 }
