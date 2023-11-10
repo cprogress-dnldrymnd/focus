@@ -26,11 +26,11 @@ function action_wp_footer()
 		});
 
 		jQuery(document).scroll(function() {
-			console.log('scrolling');
+			header_background();
 		});
-
 		function header_background() {
-
+			$scrolltop = jQuery(document).scrollTop();
+			console.log($scrolling);
 		}
 
 
