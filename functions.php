@@ -25,10 +25,12 @@ function action_wp_footer()
 			header_height();
 		});
 
+		jQuery(document).scroll(function() {
+			console.log('scrolling');
+		});
+
 		function header_background() {
-			jQuery(window).scroll(function() {
-				console.log('scrolling');
-			});
+
 		}
 
 
