@@ -22,7 +22,9 @@ Container::make('post_meta', __('Page Settings'))
                 'background-style-3' => 'Style 3',
                 'background-none' => 'None',
             )),
-        Field::make('checkbox', 'disable_top_padding', 'Disable Content Top Padding')
+        Field::make('checkbox', 'hide_top_bg_on_mobile', 'Hide Top Background on mobile'),
+
+        Field::make('checkbox', 'disable_top_padding', 'Disable Content Top Padding'),
 
     ));
 
