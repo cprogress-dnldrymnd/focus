@@ -38,8 +38,15 @@ function custom_class($classes)
 {
 
 	$disable_top_padding = carbon_get_the_post_meta('disable_top_padding');
+	$hide_top_bg_on_mobile = carbon_get_the_post_meta('disable_top_padding');
+
+	
 	if ($disable_top_padding) {
 		$classes[] = 'disable-padding-top';
+	}
+
+	if ($hide_top_bg_on_mobile) {
+		$classes[] = 'hide-top-bg-mobile';
 	}
 	return $classes;
 }
