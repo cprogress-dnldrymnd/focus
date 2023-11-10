@@ -367,6 +367,11 @@ body {
             padding-top: var(--header-height, 196px);
         }
     }
+    &.hide-top-bg-mobile {
+        #top-bg {
+            display: none;
+        }
+    }
 }
 
 .single-post {
