@@ -415,6 +415,7 @@ body {
             top: 0;
             opacity: 0;
             transition: 300ms;
+            
         }
     }
 
@@ -429,6 +430,9 @@ body {
             width: 100% !important;
             max-width: 100% !important;
             right: 0 !important;
+            height: auto !important;
+            max-height: 100% !important;
+            margin-top: 0 !important;
         }
     }
 }
