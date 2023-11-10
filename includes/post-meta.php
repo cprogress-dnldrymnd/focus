@@ -22,6 +22,8 @@ Container::make('post_meta', __('Page Settings'))
                 'background-style-3' => 'Style 3',
                 'background-none' => 'None',
             )),
+        Field::make('checkbox', 'disable_top_padding', 'Disable Content Top Padding')
+
     ));
 
 
@@ -73,5 +75,3 @@ Container::make('post_meta', __('Case Study Settings'))
             ->set_layout('tabbed-vertical')
             ->set_header_template('<%- title %>')
     ));
-
-    

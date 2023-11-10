@@ -393,6 +393,15 @@ body:not(.elementor-editor-active) {
     }
 }
 
+@media (max-width: 767px) {
+    .text-left-mobile {
+        text-align: left;
+        .elementor-item {
+            justify-content: flex-start !important;
+        }
+    }
+}
+
 button,
 input,
 select,
