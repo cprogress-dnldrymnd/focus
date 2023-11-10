@@ -31,3 +31,15 @@ function action_wp_footer()
 }
 
 add_action('wp_footer', 'action_wp_footer');
+
+
+add_filter('body_class', 'custom_class');
+function custom_class($classes)
+{
+
+	$disable_top_padding = carbon_get_the_post_meta('disable_top_padding');
+	if ($disable_top_padding) {
+		$classes[] = 'disable-padding-top';
+	}
+	return $classes;
+}
