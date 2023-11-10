@@ -280,7 +280,7 @@ body:not(.disable-padding-top) #page {
   body.hide-top-bg-mobile #top-bg {
     display: none; } }
 @media (max-width: 1024px) {
-  body.mobile-header-bg div[data-elementor-type="header"] {
+  body.mobile-header-bg div[data-elementor-type="header"] > section, body.mobile-header-bg div[data-elementor-type="header"] > header {
     background: transparent linear-gradient(256deg, #722282 0%, #5f277c 26%, #432e72 84%, #1f3765 100%) 0% 0% no-repeat padding-box; } }
 
 .single-post .elementor-widget-text-editor h1,
