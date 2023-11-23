@@ -39,12 +39,12 @@ add_shortcode('resource_filters', 'resource_filters');
 
 function project_overview_item($value, $label = '')
 {
-    ob_start();
     if ($value) {
+        ob_start();
     ?>
         <tr>
             <td class="label">
-                <strong><?= $label ?>: </strong>
+                <strong> <?= $label ?>: </strong>
             </td>
             <td>
                 <?= $value ?>
