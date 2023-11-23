@@ -39,12 +39,12 @@ add_shortcode('resource_filters', 'resource_filters');
 
 function project_overview_item($value, $label = '')
 {
+    ob_start();
     if ($value) {
-        ob_start();
     ?>
         <tr>
             <td class="label">
-                <strong> <?= $label ?>: </strong>
+                <strong><?= $label ?>: </strong>
             </td>
             <td>
                 <?= $value ?>
@@ -67,7 +67,11 @@ function project_overview()
     ?>
     <div class="project-overview">
         <table class="table-style">
-
+            <?= project_overview_item($client, 'Client') ?>
+            <?= project_overview_item($project, 'Project') ?>
+            <?= project_overview_item($location, 'Location') ?>
+            <?= project_overview_item($value, 'Value') ?>
+            <?= project_overview_item($services, 'Services') ?>
         </table>
         <?php if ($key_facts) { ?>
             <div class="key-facts">
