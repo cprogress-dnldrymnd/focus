@@ -67,11 +67,7 @@ function project_overview()
     ?>
     <div class="project-overview">
         <table class="table-style">
-            <?= project_overview_item($client, 'Client') ?>
-            <?= project_overview_item($project, 'Project') ?>
-            <?= project_overview_item($location, 'Location') ?>
-            <?= project_overview_item($value, 'Value') ?>
-            <?= project_overview_item($services, 'Services') ?>
+
         </table>
         <?php if ($key_facts) { ?>
             <div class="key-facts">
