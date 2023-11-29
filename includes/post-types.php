@@ -165,6 +165,7 @@ new newPostType(
     'publicly_queryable'  => true,
     'show_in_admin_bar'   => false,
     'has_archive'         => false,
+    'rewrite'             => array('slug' => 'loop-sections'),
     'supports'            => array('title', 'revisions', 'thumbnail'),
   )
 );
