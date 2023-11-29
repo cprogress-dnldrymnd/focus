@@ -174,7 +174,7 @@ new newPostType(
 new newTaxonomy(
   array(
     'taxonomy'  => 'loop_sections_category',
-    'post_type' => 'loop-sections',
+    'post_type' => 'loopsections',
     'args'      => array(
       'hierarchical' => false,
       'label'        => 'Loop Section Categories',
