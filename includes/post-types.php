@@ -142,15 +142,29 @@ class newTaxonomy
 }
 
 new newPostType(
-	array(
-		'name'                => 'Testimonials',
-		'singular_name'       => 'Testimonial',
-		'icon'                => 'dashicons-testimonial',
-		'exclude_from_search' => false,
-		'publicly_queryable'  => true,
-		'show_in_admin_bar'   => true,
-		'has_archive'         => true,
-		'rewrite'             => array('slug' => 'testimonial'),
-		'supports'            => array('title', 'revisions', 'thumbnail'),
-	)
+  array(
+    'name'                => 'Testimonials',
+    'singular_name'       => 'Testimonial',
+    'icon'                => 'dashicons-testimonial',
+    'exclude_from_search' => false,
+    'publicly_queryable'  => true,
+    'show_in_admin_bar'   => true,
+    'has_archive'         => true,
+    'rewrite'             => array('slug' => 'testimonial'),
+    'supports'            => array('title', 'revisions', 'thumbnail'),
+  )
+);
+
+
+new newPostType(
+  array(
+    'name'                => 'Loop Sections',
+    'singular_name'       => 'Loop Section',
+    'icon'                => 'dashicons-testimonial',
+    'exclude_from_search' => true,
+    'publicly_queryable'  => true,
+    'show_in_admin_bar'   => false,
+    'has_archive'         => false,
+    'supports'            => array('title', 'revisions', 'thumbnail'),
+  )
 );
