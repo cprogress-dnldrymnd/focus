@@ -176,7 +176,7 @@ new newTaxonomy(
     'taxonomy'  => 'loop_sections_category',
     'post_type' => 'loopsections',
     'args'      => array(
-      'hierarchical' => false,
+      'hierarchical' => true,
       'label'        => 'Loop Section Categories',
       'query_var'    => true,
     )
