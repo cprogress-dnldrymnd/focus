@@ -69,10 +69,3 @@ function custom_class($classes)
 	}
 	return $classes;
 }
-
-
-function action_homepage_slider($query)
-{
-	$query->set('post_type', ['elementor_library']);
-}
-add_action('elementor/query/homepage_slider', 'action_homepage_slider');
