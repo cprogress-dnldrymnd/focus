@@ -141,11 +141,14 @@ body {
 }
 
 #top-bg {
-    height: 850px;
+    height: 1000px;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
+    @media (max-width: 991px) {
+            height: 850px;
+        }
     @media (max-width: 767px) {
         height: 600px;
     }

@@ -116,11 +116,14 @@ body #main-content {
       clip-path: polygon(0 0, 100% 0%, 100% 66%, 0 100%); } }
 
 #top-bg {
-  height: 850px;
+  height: 1000px;
   position: absolute;
   top: 0;
   left: 0;
   right: 0; }
+  @media (max-width: 991px) {
+    #top-bg {
+      height: 850px; } }
   @media (max-width: 767px) {
     #top-bg {
       height: 600px; } }
