@@ -489,4 +489,7 @@ textarea {
         color: var(--accent-color-11);
         text-transform: uppercase;
     }
+    .elementor-tab-title {
+        text-transform: uppercase !important;
+    }
 }

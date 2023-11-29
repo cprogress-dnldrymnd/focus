@@ -352,5 +352,7 @@ textarea {
 .vamtam-tabs h2 {
   color: var(--accent-color-11);
   text-transform: uppercase; }
+.vamtam-tabs .elementor-tab-title {
+  text-transform: uppercase !important; }
 
 /*# sourceMappingURL=style.css.map */
