@@ -168,3 +168,17 @@ new newPostType(
     'supports'            => array('title', 'revisions', 'thumbnail'),
   )
 );
+
+
+
+new newTaxonomy(
+  array(
+    'taxonomy'  => 'loop_sections_category',
+    'post_type' => 'loop-sections',
+    'args'      => array(
+      'hierarchical' => false,
+      'label'        => 'Loop Section Categories',
+      'query_var'    => true,
+    )
+  )
+);
