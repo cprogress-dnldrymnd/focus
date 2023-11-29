@@ -11,7 +11,7 @@ use Carbon_Fields\Field;
 Container::make('post_meta', __('Page Settings'))
     ->where('post_type', '=', 'page')
     ->or_where('post_type', '=', 'post')
-    ->or_where('post_type', '=', 'testimonial')
+    ->or_where('post_type', '=', 'testimonials')
     ->set_priority('high')
     ->set_context('side')
     ->add_fields(
