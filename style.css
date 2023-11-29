@@ -350,6 +350,7 @@ textarea {
   font-family: inherit !important; }
 
 .vamtam-tabs h2 {
-  color: var(--accent-color-11); }
+  color: var(--accent-color-11);
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
