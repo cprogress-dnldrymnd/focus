@@ -151,6 +151,6 @@ new newPostType(
 		'show_in_admin_bar'   => true,
 		'has_archive'         => true,
 		'rewrite'             => array('slug' => 'testimonial'),
-		'supports'            => array('title', 'revisions'),
+		'supports'            => array('title', 'revisions', 'thumbnail'),
 	)
 );
