@@ -52,7 +52,7 @@ Container::make('post_meta', __('Case Study Settings'))
     ->where('post_type', '=', 'post')
     ->where('post_term', '=', array(
         'field'    => 'slug',
-        'value'    => 'case-studies',
+        'value'    => 'success-stories',
         'taxonomy' => 'category',
     )
     )
