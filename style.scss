@@ -104,6 +104,11 @@ body {
             -webkit-clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
             clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
         }
+
+        @media (max-width: 575px) {
+            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+            clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+        }
     }
     &:after {
         content: "";
@@ -112,7 +117,13 @@ body {
         clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%);
 
         @media (max-width: 767px) {
+            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 66%, 0 100%);
             clip-path: polygon(0 0, 100% 0%, 100% 66%, 0 100%);
+        }
+
+        @media (max-width: 767px) {
+            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+            clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
         }
     }
 }
@@ -147,8 +158,8 @@ body {
     left: 0;
     right: 0;
     @media (max-width: 991px) {
-            height: 850px;
-        }
+        height: 850px;
+    }
     @media (max-width: 767px) {
         height: 600px;
     }
@@ -418,7 +429,6 @@ body {
             top: 0;
             opacity: 0;
             transition: 300ms;
-            
         }
     }
 
@@ -491,5 +501,14 @@ textarea {
     }
     .elementor-tab-title {
         text-transform: uppercase !important;
+    }
+}
+
+.gform_confirmation_message.gform_confirmation_message.gform_confirmation_message {
+    .elementor-button {
+        margin-top: 30px;
+        br {
+            display: none;
+        }
     }
 }

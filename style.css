@@ -88,6 +88,10 @@ body #main-content {
     .background-style-default:before {
       -webkit-clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
       clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%); } }
+  @media (max-width: 575px) {
+    .background-style-default:before {
+      -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+      clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%); } }
 .background-style-default:after {
   content: "";
   background: transparent linear-gradient(255deg, #722282ac 0%, #72228212 100%) 0% 0% no-repeat padding-box;
@@ -95,7 +99,12 @@ body #main-content {
   clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%); }
   @media (max-width: 767px) {
     .background-style-default:after {
+      -webkit-clip-path: polygon(0 0, 100% 0%, 100% 66%, 0 100%);
       clip-path: polygon(0 0, 100% 0%, 100% 66%, 0 100%); } }
+  @media (max-width: 767px) {
+    .background-style-default:after {
+      -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+      clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%); } }
 
 .background-style-3:before {
   background: transparent linear-gradient(256deg, #66bbb0 0%, #1f3765 100%) 0% 0% no-repeat padding-box;
@@ -354,5 +363,10 @@ textarea {
   text-transform: uppercase; }
 .vamtam-tabs .elementor-tab-title {
   text-transform: uppercase !important; }
+
+.gform_confirmation_message.gform_confirmation_message.gform_confirmation_message .elementor-button {
+  margin-top: 30px; }
+  .gform_confirmation_message.gform_confirmation_message.gform_confirmation_message .elementor-button br {
+    display: none; }
 
 /*# sourceMappingURL=style.css.map */

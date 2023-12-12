@@ -69,3 +69,15 @@ function custom_class($classes)
 	}
 	return $classes;
 }
+
+
+//download product brochure
+add_filter( 'gform_confirmation_1', 'custom_confirmation', 10, 4 );
+function custom_confirmation( $confirmation, $form, $entry, $ajax ) {
+    if( $form['id'] == '101' ) {
+        $confirmation = array( 'redirect' => 'http://www.google.com' );
+    } elseif( $form['id'] == '102' ) {
+        $confirmation = "Thanks for contacting us. We will get in touch with you soon";
+    }
+    return $confirmation;
+}
