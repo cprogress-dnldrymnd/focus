@@ -51,6 +51,10 @@ function action_wp_footer()
 
 		function fixed_header_bg_mobile() {
 			setTimeout(function() {
+				$header_height = jQuery('div[data-elementor-type="header"]').outerHeight();
+				$section_height = jQuery('#main > div > .elementor-section:first-child').outerHeight();
+
+				$height = $header_height + $section_height;
 
 				if (window.innerWidth > 992) {
 					$compare = 1000;
@@ -62,7 +66,6 @@ function action_wp_footer()
 					$compare = 500;
 				}
 
-				$height = jQuery('#main > div > .elementor-section:first-child').outerHeight();
 				if ($height > $compare) {
 					jQuery("#top-bg").css('height', $height + 100 + "px");
 				}
