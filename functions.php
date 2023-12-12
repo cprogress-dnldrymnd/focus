@@ -39,7 +39,6 @@ function action_wp_footer()
 			} else {
 				jQuery('body').removeClass('mobile-header-bg');
 			}
-			console.log($scrolltop);
 		}
 
 
