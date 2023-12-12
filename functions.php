@@ -24,14 +24,18 @@ function action_wp_footer()
 	<script>
 		jQuery(document).ready(function() {
 			header_height();
+			if (window.innerWidth < 576) {
+				fixed_header_bg_mobile();
+			}
 		});
 
 		jQuery(document).scroll(function() {
 			header_background();
 		});
+
 		function header_background() {
 			$scrolltop = jQuery(document).scrollTop();
-			if($scrolltop > 250) {
+			if ($scrolltop > 250) {
 				jQuery('body').addClass('mobile-header-bg');
 			} else {
 				jQuery('body').removeClass('mobile-header-bg');
@@ -44,6 +48,12 @@ function action_wp_footer()
 			$header_height = jQuery('div[data-elementor-type="header"]').outerHeight();
 			jQuery('body').css('--header-height', $header_height + 'px');
 			jQuery('body').css('--header-height-negative', '-' + $header_height + 'px');
+		}
+
+
+		function fixed_header_bg_mobile() {
+			$height = jQuery('div[data-elementor-post-type="page"] > *:first-child').outerHeight();
+			jQuery("#top-bg").css('height', $header_height + "px");
 		}
 	</script>
 <?php
@@ -72,12 +82,13 @@ function custom_class($classes)
 
 
 //download product brochure
-add_filter( 'gform_confirmation_1', 'custom_confirmation', 10, 4 );
-function custom_confirmation( $confirmation, $form, $entry, $ajax ) {
-    if( $form['id'] == '101' ) {
-        $confirmation = array( 'redirect' => 'http://www.google.com' );
-    } elseif( $form['id'] == '102' ) {
-        $confirmation = "Thanks for contacting us. We will get in touch with you soon";
-    }
-    return $confirmation;
+add_filter('gform_confirmation_1', 'custom_confirmation', 10, 4);
+function custom_confirmation($confirmation, $form, $entry, $ajax)
+{
+	if ($form['id'] == '101') {
+		$confirmation = array('redirect' => 'http://www.google.com');
+	} elseif ($form['id'] == '102') {
+		$confirmation = "Thanks for contacting us. We will get in touch with you soon";
+	}
+	return $confirmation;
 }
