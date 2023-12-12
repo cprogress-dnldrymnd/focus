@@ -24,6 +24,9 @@ function action_wp_footer()
 	<script>
 		jQuery(document).ready(function() {
 			header_height();
+			if (window.innerWidth < 576) {
+				fixed_header_bg_mobile();
+			}
 		});
 
 		jQuery(document).scroll(function() {
@@ -48,7 +51,14 @@ function action_wp_footer()
 		}
 
 
-	
+		function fixed_header_bg_mobile() {
+			setTimeout(function() {
+				$height = jQuery('#main > div > *:first-child > div').outerHeight();
+				$height = jQuery('#main > div > *:first-child').addClass('sdsdsdsdsds');
+				jQuery("#top-bg").css('height', $header_height + "px");
+			}, 1000);
+
+		}
 	</script>
 <?php
 }
