@@ -106,6 +106,12 @@ body #main-content {
       -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
       clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%); } }
 
+@media (max-width: 575px) {
+  #main > div > *:first-child {
+    background: transparent linear-gradient(255deg, #722282ac 0%, #72228212 100%) 0% 0% no-repeat padding-box;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%); } }
+
 .background-style-3:before {
   background: transparent linear-gradient(256deg, #66bbb0 0%, #1f3765 100%) 0% 0% no-repeat padding-box;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
