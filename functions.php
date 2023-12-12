@@ -45,7 +45,7 @@ function action_wp_footer()
 
 
 		function header_height() {
-			$header_height = jQuery('div[data-elementor-type="header"]').height();
+			$header_height = jQuery('div[data-elementor-type="header"]').outerHeight();
 			jQuery('body').css('--header-height', $header_height + 'px');
 			jQuery('body').css('--header-height-negative', '-' + $header_height + 'px');
 		}
@@ -53,7 +53,7 @@ function action_wp_footer()
 
 		function fixed_header_bg_mobile() {
 			setTimeout(function() {
-				$height = jQuery('#main > div > *:first-child > div').outerHeight();
+				$height = jQuery('#main > div > *:first-child > div').height();
 				$height = jQuery('#main > div > *:first-child').addClass('sdsdsdsdsds');
 				jQuery("#top-bg").css('height', $header_height + "px");
 			}, 1000);
