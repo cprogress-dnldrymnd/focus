@@ -56,7 +56,7 @@ function action_wp_footer()
 				$height = jQuery('#main > div > *:first-child').outerHeight();
 				$height = jQuery('#main > div > *:first-child').addClass('sdsdsdsdsds');
 				jQuery("#top-bg").css('height', $header_height + "px");
-			}, 500);
+			}, 1000);
 
 		}
 	</script>
