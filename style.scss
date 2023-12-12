@@ -72,11 +72,7 @@ body {
         bottom: 0;
     }
 }
-#top-bg {
-    @media(max-width: 575px) {
-        display: none !important
-    }
-}
+
 .background-style-1 {
     &:before {
         background: transparent linear-gradient(251deg, #722282 0%, #5f277c 26%, #1e3765 77%, #66bbb0 100%) 0% 0%
@@ -132,12 +128,7 @@ body {
         }
     }
 }
-#main > div > *:first-child {
-    @media (max-width: 575px) {
-        background: transparent linear-gradient(256deg, #722282 0%, #5f277c 26%, #432e72 84%, #1f3765 100%) 0% 0%
-        no-repeat padding-box;
-    }
-}
+
 .background-style-3 {
     &:before {
         background: transparent linear-gradient(256deg, #66bbb0 0%, #1f3765 100%) 0% 0% no-repeat padding-box;
