@@ -34,7 +34,7 @@ function action_wp_footer()
 
 		function header_background() {
 			$scrolltop = jQuery(document).scrollTop();
-			if ($scrolltop > 250) {
+			if ($scrolltop > 0) {
 				jQuery('body').addClass('mobile-header-bg');
 			} else {
 				jQuery('body').removeClass('mobile-header-bg');
