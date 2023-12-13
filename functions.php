@@ -98,6 +98,38 @@ function custom_class($classes)
 }
 
 
+function action_admin_head()
+{
+?>
+	<?php
+	if (get_current_user_id() != 1) {
+	?>
+		<style>
+			#toplevel_page_vamtam_theme_setup {
+				display: none !important;
+			}
+		</style>
+<?php
+	}
+}
+
+add_action('admin_head', 'action_admin_head');
+
+
+add_filter('gettext', 'translate_text');
+add_filter('ngettext', 'translate_text');
+function translate_text($translated)
+{
+	$words = array(
+		// 'word to translate' => 'translation'
+		'VamTam' => 'F0CUS',
+	);
+	$translated = str_ireplace(array_keys($words), $words, $translated);
+	return $translated;
+}
+
+
+
 //download product brochure
 add_filter('gform_confirmation_1', 'custom_confirmation', 10, 4);
 function custom_confirmation($confirmation, $form, $entry, $ajax)
