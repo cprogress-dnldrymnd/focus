@@ -44,11 +44,12 @@ function action_wp_footer()
 		function mobile_header() {
 
 			jQuery(document).on("click", '.elementor-item.has-submenu', function(event) {
-				jQuery('.elementor-item.has-submenu').not(this).each(function() {
+				console.log('xxxxx');
+
+				jQuery('.elementor-item has-submenu').not(this).each(function() {
 					jQuery(this).removeClass('highlighted').attr('aria-expanded', 'false');
 					jQuery(this).next().hide();
 
-					console.log('xxxxx');
 				});
 			});
 		}
