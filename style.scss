@@ -460,13 +460,11 @@ body {
                         }
                     }
 
-                    .sub-menu.sub-menu.sub-menu {
-                        border: none;
-                        border-radius: 0 !important;
-                    }
+              
                     &.highlighted {
                         background-color: #dedede !important;
                         & + .sub-menu {
+                            border-radius: 0 !important;
                             a {
                                 background-color: #dedede !important;
                             }
