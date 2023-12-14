@@ -461,13 +461,14 @@ body {
                 height: auto !important;
                 max-height: 100% !important;
                 margin-top: 0 !important;
-                color: var(--accent-color-5);
                 > .elementor-nav-menu > li > a {
                     text-transform: uppercase;
                     font-weight: 600;
                     letter-spacing: 1px;
                 }
                 .elementor-item {
+                    color: var(--accent-color-5);
+
                     &.has-submenu {
                         justify-content: space-between;
                         .sub-arrow {
@@ -479,6 +480,7 @@ body {
                         background-color: transparent !important;
                         & + .sub-menu {
                             border-radius: 0 !important;
+                            background-color: transparent !important;
                             a {
                                 background-color: transparent !important;
                             }
