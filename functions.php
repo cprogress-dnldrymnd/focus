@@ -66,6 +66,8 @@ function action_wp_footer()
 					$compare = 500;
 				}
 
+				console.log($height);
+
 				if ($height > $compare) {
 					jQuery("#top-bg").css('height', $height + 100 + "px");
 				}
