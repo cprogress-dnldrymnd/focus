@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Header template
  *
@@ -40,7 +41,17 @@
 		get_template_part('templates/header');
 	}
 	?>
+	<script>
+		jQuery(document).on("click", '.elementor-item.has-submenu', function(event) {
+			console.log('xxxxx');
 
+			jQuery('.elementor-item.has-submenu').not(this).each(function() {
+				jQuery(this).removeClass('highlighted').attr('aria-expanded', 'false');
+				jQuery(this).next().hide();
+
+			});
+		});
+	</script>
 	<div id="page" class="main-container">
 		<div id="main-content">
 			<?php get_template_part('templates/header/sub-header'); ?>
