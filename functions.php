@@ -43,7 +43,7 @@ function action_wp_footer()
 
 		function mobile_header() {
 
-			jQuery(document).on("click", '.menu-item', function(event) {
+			jQuery('body').on("click", '.menu-item', function(event) {
 				console.log('xxxxx');
 
 				jQuery('.elementor-item.has-submenu').not(this).each(function() {
