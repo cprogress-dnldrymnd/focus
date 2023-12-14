@@ -52,7 +52,7 @@ function action_wp_footer()
 		function fixed_header_bg_mobile() {
 			setTimeout(function() {
 				$header_height = jQuery('div[data-elementor-type="header"]').outerHeight();
-				$section_height = jQuery('#main > div > .elementor-section:first-child').outerHeight();
+				$section_height = jQuery('#main > div > *:first-child').outerHeight();
 
 				$height = $header_height + $section_height;
 
