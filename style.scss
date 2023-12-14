@@ -412,7 +412,7 @@ body {
     }
 }
 
-.elementor-location-header {
+.elementor-location-header.elementor-location-header {
     > section,
     > header {
         > div {
@@ -446,7 +446,24 @@ body {
                 right: 0 !important;
                 height: auto !important;
                 max-height: 100% !important;
-                margin-top: -12px !important;
+                margin-top: 0 !important;
+                .elementor-item {
+                    justify-content: space-between;
+                    .sub-arrow {
+                        font-size: 25px;
+                    }
+
+                    .sub-menu {
+                        border: none;
+                        border-radius: 0;
+                    }
+                    &.highlighted {
+                        background-color: #dedede !important;
+                        & + .sub-menu {
+                            background-color: #dedede !important;
+                        }
+                    }
+                }
                 &[aria-hidden="false"] {
                     transform: translateX(0) !important;
                 }
