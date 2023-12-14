@@ -411,7 +411,21 @@ body {
         }
     }
 }
-
+.vamtam-disable-scroll {
+    .elementor-location-header.elementor-location-header > section:before {
+        &:before {
+            content: "";
+            background: linear-gradient(180deg, rgba(114, 34, 130, 1) 0%, rgba(67, 46, 114, 1) 100%);
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            opacity: 0;
+            transition: 300ms;
+        }
+    }
+}
 .elementor-location-header.elementor-location-header {
     > section,
     > header {
