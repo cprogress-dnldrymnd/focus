@@ -447,11 +447,13 @@ body {
                 height: auto !important;
                 max-height: 100% !important;
                 margin-top: 0 !important;
+                > .elementor-nav-menu > li > a {
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                }
                 .elementor-item {
                     &.has-submenu {
-                        text-transform: uppercase;
-                        font-weight: 600;
-                        letter-spacing: 1px;
                         justify-content: space-between;
                         .sub-arrow {
                             font-size: 25px;
@@ -460,12 +462,14 @@ body {
 
                     .sub-menu {
                         border: none;
-                        border-radius: 0;
+                        border-radius: 0 !important;
                     }
                     &.highlighted {
                         background-color: #dedede !important;
                         & + .sub-menu {
-                            background-color: #dedede !important;
+                            a {
+                                background-color: #dedede !important;
+                            }
                         }
                     }
                 }

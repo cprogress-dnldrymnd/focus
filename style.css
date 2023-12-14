@@ -328,19 +328,20 @@ body:not(.disable-padding-top) #page {
     height: auto !important;
     max-height: 100% !important;
     margin-top: 0 !important; }
-    .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-item.has-submenu {
+    .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown > .elementor-nav-menu > li > a {
       text-transform: uppercase;
       font-weight: 600;
-      letter-spacing: 1px;
+      letter-spacing: 1px; }
+    .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-item.has-submenu {
       justify-content: space-between; }
       .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-item.has-submenu .sub-arrow {
         font-size: 25px; }
     .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-item .sub-menu {
       border: none;
-      border-radius: 0; }
+      border-radius: 0 !important; }
     .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-item.highlighted {
       background-color: #dedede !important; }
-      .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-item.highlighted + .sub-menu {
+      .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-item.highlighted + .sub-menu a {
         background-color: #dedede !important; }
     .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown[aria-hidden="false"] {
       transform: translateX(0) !important; } }
