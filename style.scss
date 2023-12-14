@@ -433,7 +433,7 @@ body {
         }
     }
 
-    .elementor-nav-menu--dropdown {
+    .elementor-location-header .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown {
         @media (max-width: 1024px) {
             position: fixed !important;
             top: var(--header-height) !important;
@@ -446,7 +446,10 @@ body {
             right: 0 !important;
             height: auto !important;
             max-height: 100% !important;
-            margin-top: 0 !important;
+            margin-top: -12px !important;
+            &[aria-hidden="false"] {
+                transform: translateX(0) !important;
+            }
         }
     }
 }
