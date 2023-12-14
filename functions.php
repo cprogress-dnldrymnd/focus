@@ -43,7 +43,7 @@ function action_wp_footer()
 
 		function mobile_header() {
 
-			jQuery('body').on("click", '.elementor-item.has-submenu', function(event) { 
+			jQuery(".elementor-item.has-submenu").bind("click", function() {
 				console.log('xxxxx');
 
 				jQuery('.elementor-item.has-submenu').not(this).each(function() {
@@ -52,6 +52,7 @@ function action_wp_footer()
 
 				});
 			});
+
 		}
 
 
