@@ -448,9 +448,14 @@ body {
                 max-height: 100% !important;
                 margin-top: 0 !important;
                 .elementor-item {
-                    justify-content: space-between;
-                    .sub-arrow {
-                        font-size: 25px;
+                    &.has-submenu {
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                        justify-content: space-between;
+                        .sub-arrow {
+                            font-size: 25px;
+                        }
                     }
 
                     .sub-menu {
