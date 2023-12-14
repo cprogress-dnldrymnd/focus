@@ -301,7 +301,7 @@ body:not(.disable-padding-top) #page {
 
 .vamtam-disable-scroll .elementor-location-header.elementor-location-header > section:before:before {
   content: "";
-  background: linear-gradient(180deg, #722282 0%, #432e72 100%);
+  background: linear-gradient(180deg, #722282 0%, #432e72 100%) !important;
   position: absolute;
   left: 0;
   right: 0;
