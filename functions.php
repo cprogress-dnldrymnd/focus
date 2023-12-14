@@ -42,15 +42,13 @@ function action_wp_footer()
 		}
 
 		function mobile_header() {
-			jQuery('.elementor-item.has-submenu').click(function(e) {
 
-				jQuery(document).on("click", '.elementor-item.has-submenu', function(event) {
-					jQuery('.elementor-item.has-submenu').not(this).each(function() {
-						jQuery(this).removeClass('highlighted').attr('aria-expanded', 'false');
-						jQuery(this).next().hide();
+			jQuery(document).on("click", '.elementor-item.has-submenu', function(event) {
+				jQuery('.elementor-item.has-submenu').not(this).each(function() {
+					jQuery(this).removeClass('highlighted').attr('aria-expanded', 'false');
+					jQuery(this).next().hide();
 
-						console.log('xxxxx');
-					});
+					console.log('xxxxx');
 				});
 			});
 		}
