@@ -307,7 +307,7 @@ body:not(.disable-padding-top) #page {
   right: 0;
   bottom: 0;
   top: 0;
-  opacity: 0;
+  opacity: 1;
   transition: 300ms; }
 
 .elementor-location-header.elementor-location-header > section > div,
