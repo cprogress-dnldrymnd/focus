@@ -139,6 +139,10 @@ body {
             -webkit-clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
             clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
         }
+        @media (max-width: 575px) {
+            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+            clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+        }
     }
     &:after {
         content: "";
@@ -148,6 +152,10 @@ body {
         clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%);
         @media (max-width: 767px) {
             clip-path: polygon(0 0, 100% 0%, 100% 66%, 0 100%);
+        }
+        @media (max-width: 575px) {
+            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+            clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
         }
     }
 }

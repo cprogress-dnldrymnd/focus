@@ -115,6 +115,10 @@ body #main-content {
     .background-style-3:before {
       -webkit-clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
       clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%); } }
+  @media (max-width: 575px) {
+    .background-style-3:before {
+      -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+      clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%); } }
 .background-style-3:after {
   content: "";
   background: transparent linear-gradient(255deg, #66bbb0 0%, #66bbb051 28%, #66bbb000 100%) 0% 0% no-repeat padding-box;
@@ -123,6 +127,10 @@ body #main-content {
   @media (max-width: 767px) {
     .background-style-3:after {
       clip-path: polygon(0 0, 100% 0%, 100% 66%, 0 100%); } }
+  @media (max-width: 575px) {
+    .background-style-3:after {
+      -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+      clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%); } }
 
 #top-bg {
   height: 1000px;
