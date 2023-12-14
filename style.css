@@ -344,6 +344,8 @@ body:not(.disable-padding-top) #page {
       text-transform: uppercase;
       font-weight: 600;
       letter-spacing: 1px; }
+    .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-sub-item {
+      color: var(--accent-color-5) !important; }
     .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-item {
       color: var(--accent-color-5) !important; }
       .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-item.has-submenu {
