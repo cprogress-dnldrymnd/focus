@@ -143,10 +143,10 @@ body #main-content {
       height: 850px; } }
   @media (max-width: 767px) {
     #top-bg {
-      height: 600px; } }
+      height: 700px; } }
   @media (max-width: 575px) {
     #top-bg {
-      height: 500px; } }
+      height: 600px; } }
 
 .footer-wrapper:before {
   background: transparent linear-gradient(262deg, #512d6d79 0%, #21376521 100%) 0% 0% no-repeat padding-box;
