@@ -299,6 +299,17 @@ body:not(.disable-padding-top) #page {
   body.vamtam-disable-scroll .elementor-location-header .elementor-nav-menu--dropdown {
     transform: translateX(0) !important; } }
 
+.vamtam-disable-scroll .elementor-location-header.elementor-location-header > section:before:before {
+  content: "";
+  background: linear-gradient(180deg, #722282 0%, #432e72 100%);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0;
+  transition: 300ms; }
+
 .elementor-location-header.elementor-location-header > section > div,
 .elementor-location-header.elementor-location-header > header > div {
   position: relative;
