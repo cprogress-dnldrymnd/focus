@@ -25,7 +25,7 @@ function action_wp_footer()
 		jQuery(document).ready(function() {
 			header_height();
 			fixed_header_bg_mobile();
-
+			mobile_header();
 		});
 
 		jQuery(document).scroll(function() {
@@ -39,6 +39,15 @@ function action_wp_footer()
 			} else {
 				jQuery('body').removeClass('mobile-header-bg');
 			}
+		}
+
+		function mobile_header() {
+			jQuery('.elementor-item.has-submenu').click(function(e) {
+				jQuery('.elementor-item.has-submenu').not(this).each(function() {
+					jQuery(this).removeClass('highlighted').attr('aria-expanded', 'false');
+					jQuery(this).next().hide();
+				});
+			});
 		}
 
 
