@@ -361,6 +361,8 @@ body:not(.disable-padding-top) #page {
       color: var(--accent-color-5) !important; }
     .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-item {
       color: var(--accent-color-5) !important; }
+      .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-item.elementor-item-active {
+        background-color: var(--accent-color-11) !important; }
       .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-item.has-submenu {
         justify-content: space-between; }
         .elementor-location-header.elementor-location-header .elementor-menu-toggle + .elementor-nav-menu--dropdown.elementor-nav-menu--dropdown.elementor-nav-menu--dropdown .elementor-item.has-submenu .sub-arrow {

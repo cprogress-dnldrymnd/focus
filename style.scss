@@ -487,7 +487,9 @@ body {
                 }
                 .elementor-item {
                     color: var(--accent-color-5) !important;
-
+                    &.elementor-item-active {
+                        background-color: var(--accent-color-11) !important;
+                    }
                     &.has-submenu {
                         justify-content: space-between;
                         .sub-arrow {
