@@ -485,26 +485,28 @@ body {
                 .elementor-sub-item {
                     color: var(--accent-color-5) !important;
                 }
+                .has-submenu.has-submenu.has-submenu {
+                    justify-content: space-between;
+                }
+
+                .highlighted.highlighted.highlighted {
+                    background-color: transparent !important;
+                    & + .sub-menu {
+                        border-radius: 0 !important;
+                        background-color: transparent !important;
+                        a {
+                            background-color: transparent !important;
+                        }
+                    }
+                }
                 .elementor-item {
                     color: var(--accent-color-5) !important;
                     &.elementor-item-active {
                         background-color: var(--accent-color-11) !important;
                     }
                     &.has-submenu {
-                        justify-content: space-between;
                         .sub-arrow {
                             font-size: 25px;
-                        }
-                    }
-
-                    &.highlighted {
-                        background-color: transparent !important;
-                        & + .sub-menu {
-                            border-radius: 0 !important;
-                            background-color: transparent !important;
-                            a {
-                                background-color: transparent !important;
-                            }
                         }
                     }
                 }
