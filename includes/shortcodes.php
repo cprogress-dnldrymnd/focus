@@ -8,7 +8,6 @@ function resource_filters()
         <div class="filter-item">
             <div class="filter-header">
                 <span>Filter by</span>
-                <span>Reset All</span>
             </div>
             <div class="filter-body">
                 <input type="text" name="s" id="search" placeholder="Search…">
@@ -17,7 +16,6 @@ function resource_filters()
         <div class="filter-item">
             <div class="filter-header">
                 <span>Resource Type</span>
-                <span>Clear</span>
             </div>
             <div class="filter-body">
                 <div class="category-filter">
