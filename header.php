@@ -25,7 +25,7 @@
 $top_background_style = carbon_get_the_post_meta('top_background_style');
 ?>
 
-<body <?php body_class(); ?> <?= !$top_background_style ?>>
+<body <?php body_class(); ?> <?= $top_background_style ?>>
 
 	<div id="top"></div>
 	<?php if ($top_background_style && $top_background_style != 'background-none') { ?>
