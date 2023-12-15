@@ -55,9 +55,10 @@ function action_wp_footer()
 				$section_height = jQuery('#main > div > *:first-child').outerHeight(true);
 
 				$height = $header_height + $section_height;
-
-				if (window.innerWidth > 992) {
+				if (window.innerWidth > 1441) {
 					$compare = 1000;
+				} else if (window.innerWidth > 992 && window.innerWidth < 1440) {
+					$compare = 900;
 				} else if (window.innerWidth > 767 && window.innerWidth < 991) {
 					$compare = 850
 				} else if (window.innerWidth > 576 && window.innerWidth < 768) {
