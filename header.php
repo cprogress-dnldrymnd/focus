@@ -21,12 +21,12 @@
 
 	<?php wp_head(); ?>
 </head>
+<?php
+$top_background_style = carbon_get_the_post_meta('top_background_style');
+?>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> <?= !$top_background_style ? 'header-background' : '' ?>>
 
-	<?php
-	$top_background_style = carbon_get_the_post_meta('top_background_style');
-	?>
 	<div id="top"></div>
 	<?php if ($top_background_style && $top_background_style != 'background-none') { ?>
 		<div id="top-bg" class="background-style <?= $top_background_style ? $top_background_style : 'background-style-default' ?>"></div>
@@ -41,17 +41,6 @@
 		get_template_part('templates/header');
 	}
 	?>
-	<script>
-		jQuery(document).on("click", '.elementor-item.has-submenu', function(event) {
-			console.log('xxxxx');
-
-			jQuery('.elementor-item.has-submenu').not(this).each(function() {
-				jQuery(this).removeClass('highlighted').attr('aria-expanded', 'false');
-				jQuery(this).next().hide();
-
-			});
-		});
-	</script>
 	<div id="page" class="main-container">
 		<div id="main-content">
 			<?php get_template_part('templates/header/sub-header'); ?>
