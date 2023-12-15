@@ -580,3 +580,10 @@ textarea {
         }
     }
 }
+
+
+body[background-none] {
+    .elementor-location-header.elementor-location-header > header:before {
+        opacity: 1;
+    }
+}

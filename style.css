@@ -417,4 +417,7 @@ textarea {
   .gform_confirmation_message.gform_confirmation_message.gform_confirmation_message .elementor-button br {
     display: none; }
 
+body[background-none] .elementor-location-header.elementor-location-header > header:before {
+  opacity: 1; }
+
 /*# sourceMappingURL=style.css.map */
