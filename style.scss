@@ -101,6 +101,11 @@ body {
         -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
         clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
         bottom: 60px !important;
+
+        @media (max-width: 1439px) {
+            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 100%);
+            clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 100%);
+        }
         @media (max-width: 767px) {
             -webkit-clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
             clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
@@ -116,7 +121,10 @@ body {
         background: transparent linear-gradient(255deg, #722282ac 0%, #72228212 100%) 0% 0% no-repeat padding-box;
         -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
         clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%);
-
+        @media (max-width: 1439px) {
+            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 100%);
+            clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 100%);
+        }
         @media (max-width: 767px) {
             -webkit-clip-path: polygon(0 0, 100% 0%, 100% 66%, 0 100%);
             clip-path: polygon(0 0, 100% 0%, 100% 66%, 0 100%);
@@ -580,7 +588,6 @@ textarea {
         }
     }
 }
-
 
 body[background-none] {
     .elementor-location-header.elementor-location-header > header:before {

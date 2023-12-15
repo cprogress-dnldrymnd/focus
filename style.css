@@ -84,6 +84,10 @@ body #main-content {
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   bottom: 60px !important; }
+  @media (max-width: 1439px) {
+    .background-style-default:before {
+      -webkit-clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 100%);
+      clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 100%); } }
   @media (max-width: 767px) {
     .background-style-default:before {
       -webkit-clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
@@ -97,6 +101,10 @@ body #main-content {
   background: transparent linear-gradient(255deg, #722282ac 0%, #72228212 100%) 0% 0% no-repeat padding-box;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 100%); }
+  @media (max-width: 1439px) {
+    .background-style-default:after {
+      -webkit-clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 100%);
+      clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 100%); } }
   @media (max-width: 767px) {
     .background-style-default:after {
       -webkit-clip-path: polygon(0 0, 100% 0%, 100% 66%, 0 100%);
